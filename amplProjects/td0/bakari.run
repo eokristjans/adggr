@@ -6,5 +6,5 @@ solve;
 display hagnadur;
 display x;
 printf {v in vorur}:
-"Framleiða %f tylftir af %s\n", x[v], v > "lausn.txt";
-printf: "Hagnaðurinn er %f\n", hagnadur >> "lausn.txt";
+"Framleida %f tylftir af %s\n", x[v], v > "lausn.txt";
+printf: "Hagnadurinn er %f\n", hagnadur >> "lausn.txt";

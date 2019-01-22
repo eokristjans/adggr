@@ -1,0 +1,8 @@
+set hraefni :=  P V B M;
+param styrkur :=
+P 2.25
+V 40
+B 40
+M 1.5
+;
+# param verd :=...
