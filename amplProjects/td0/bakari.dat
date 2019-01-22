@@ -1,0 +1,15 @@
+set vorur := beyglur muffur;
+set hraefni := hveiti egg sykur;
+param lager :=
+egg 30
+hveiti 50
+sykur 20
+;
+param uppskrift : hveiti sykur egg :=
+beyglur 5 1 2
+muffur 4 2 4
+;
+param verd :=
+muffur 12
+beyglur 10
+;
