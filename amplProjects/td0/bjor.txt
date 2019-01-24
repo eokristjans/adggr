@@ -1,0 +1,15 @@
+Daemi 1.
+Hlutfall af Pilsner i blondunni: 0.870000
+Hlutfall af Vodka i blondunni: 0.000000
+Hlutfall af Brandy i blondunni: 0.100000
+Hlutfall af Malt i blondunni: 0.030000
+Styrkur blondunnar er 6.002500%
+Heildarkostnadurinn er 390.600000 kr.
+
+Daemi 2.
+Hlutfall af Pilsner i blondunni: 0.923046
+Hlutfall af Vodka i blondunni: 0.026954
+Hlutfall af Brandy i blondunni: 0.020000
+Hlutfall af Malt i blondunni: 0.030000
+Heildarkostnadurinn er 209.811921 kr.
+Styrkur blondunnar er 4.000000%

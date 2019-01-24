@@ -1,5 +1,6 @@
 set vorur; # vorur sem verid er ad framleida
 set hraefni; # hraefni sem tharf i framleidslu
+
 param lager{hraefni};
 param uppskrift{vorur,hraefni};
 param verd{vorur};

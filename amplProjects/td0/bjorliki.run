@@ -1,0 +1,26 @@
+# RESET THE AMPL ENVIRONMENT
+reset;
+
+# LOAD THE MODEL
+model bjorliki.mod;
+
+# LOAD THE DATA
+data bjorliki.dat;
+
+#DISPLAY THE PROBLEM FORMULATION
+# expand z, Constraint;
+
+# CHANGE THE SOLVER (optional)
+option solver gurobi;
+
+# SOLVE a
+solve Strength;
+
+# SHOW RESULTS
+display Strength, Kostnadur;
+
+# SOLVE b
+solve Kostnadur;
+
+# SHOW RESULTS b
+display Strength, Kostnadur;

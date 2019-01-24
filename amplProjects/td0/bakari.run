@@ -1,10 +1,14 @@
 reset;
+
 model bakari.mod;
 data bakari.dat;
+
 option solver gurobi;
 solve;
+
 display hagnadur;
 display x;
+
 printf {v in vorur}:
-"Framleida %f tylftir af %s\n", x[v], v > "lausn.txt";
-printf: "Hagnadurinn er %f\n", hagnadur >> "lausn.txt";
+"Framleida %f tylftir af %s\n", x[v], v > "bakari.txt";
+printf: "Hagnadurinn er %f\n", hagnadur >> "bakari.txt";

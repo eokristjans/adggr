@@ -1,0 +1,14 @@
+# RESET THE AMPL ENVIRONMENT
+reset;
+
+# LOAD THE MODEL
+model ex1.mod;
+
+# CHANGE THE SOLVER (optional)
+option solver cplex;
+
+# SOLVE
+solve;
+
+# SHOW RESULTS
+display x1, x2, z;

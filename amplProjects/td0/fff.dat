@@ -1,0 +1,16 @@
+# Types of meet, B for Beef and C for Chicken
+set Kjottegundir := B C;
+
+# List the input parameters
+param   Kcal    :=
+        B       2.5
+        C       1.8;
+
+param   Fat     :=
+        B       0.2
+        C       0.1;
+
+param   Sodium  :=
+        B       3.5
+        C       2.5;
+
