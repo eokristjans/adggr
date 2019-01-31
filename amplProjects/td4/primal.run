@@ -1,0 +1,21 @@
+reset;
+
+model primal.mod;
+data primal.dat;
+
+option solver gurobi;
+solve;
+
+display hagnadur;
+display takmarkadHraefni;
+display x;
+
+printf {v in vorur}:
+"Framleida %d kg af %s\n", x[v], v > "primal.txt";
+printf: "Hagnadurinn er %d\n", hagnadur >> "primal.txt";
+
+# Lausn dual verkefnisins. Solver'inn gefur hverri skordu virdi.
+# Summa gildisins og notkunarmagnsins yfir oll hraefni er jofn hagnadinum
+printf {h in hraefni}:
+"Greida %d fyrir hvert kg af %s\n", takmarkadHraefni[h], h  > "dual.txt";
+

@@ -1,0 +1,8 @@
+reset;
+
+model burdarvirki.mod;
+
+option solver gurobi;
+solve;
+
+# display ARCS;

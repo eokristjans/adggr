@@ -1,0 +1,3 @@
+Greida 0 fyrir hvert kg af vinnustundir
+Greida 3 fyrir hvert kg af timbur
+Greida 1 fyrir hvert kg af malmur

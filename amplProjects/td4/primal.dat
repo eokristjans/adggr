@@ -1,0 +1,15 @@
+set vorur       :=  taeki glingur;
+set hraefni     :=  vinnustundir timbur malmur;
+param   lager           :=
+        vinnustundir    120
+        timbur          70
+        malmur          100
+        ;
+param   uppskrift:  vinnustundir    timbur  malmur :=
+        taeki       1               1       2
+        glingur     2               1       1
+        ;
+param   verd        :=
+        taeki       5
+        glingur     4
+        ;
