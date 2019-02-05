@@ -1,0 +1,6 @@
+reset;
+model tubular.mod;
+data tubular.dat;
+option solver gurobi;
+solve totalcost;
+display x;
