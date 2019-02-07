@@ -16,6 +16,7 @@ Hafa _Standard Statement_ tiltækt.
 
 1. Byrja á að tilgreina gögn í `.dat` skrá.
 2. `.mod` skrá:
+
   1. Gögn
   2. Breytur
   3. Skorður

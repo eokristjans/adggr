@@ -1,0 +1,8 @@
+reset;
+model steel.mod;
+data steel.dat;
+option solver gurobi;
+solve totalcost;
+display x;
+display minBlendConstr;
+display maxBlendConstr;
