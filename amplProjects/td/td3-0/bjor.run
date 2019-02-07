@@ -1,0 +1,28 @@
+# hreinsum allt ur minni
+reset;
+
+# valfrjalst, veljum hvada solver a ad nota
+# option solver gurobi;
+
+# hlodum modeli inn
+model bjor.mod;
+
+# hlodum gagnaskra inn
+data bjor.dat;
+
+# Leysum fyrst daemi 1, ad fa eins sterkt bjorliki og haegt er
+solve Strength;
+# prentum upplysingar um lausnina i .txt file
+printf: "Daemi 1.\n" > bjor.txt;
+# einn goggur (>) byr til nyja skra, tveir goggar (>>) baetir vid skra sem er til nu thegar
+printf {a in Afengi}: "Hlutfall af %s i blondunni: %f\n", a, x[a] >> bjor.txt;
+printf: "Styrkur blondunnar er %f\%\n", Strength >> bjor.txt;
+printf: "Heildarkostnadurinn er %f kr.\n", sum{a in Afengi} x[a] * Kostn[a] >> bjor.txt;
+printf: "\n" >> bjor.txt;
+
+# leysum nu daemi 2, sem odyrast bjorliki
+solve Kostnadur;
+printf: "Daemi 2.\n" >> bjor.txt;
+printf{a in Afengi}: "Hlutfall af %s i blondunni: %f\n", a, x[a] >> bjor.txt;
+printf: "Heildarkostnadurinn er %f kr.\n", Kostnadur >> bjor.txt;
+printf: "Styrkur blondunnar er %f\%\n", sum{a in Afengi} x[a] * Styrkur[a] >> bjor.txt;

@@ -1,0 +1,16 @@
+# Types of alcohol, subjects of the project
+set Afengi := P V B M;
+
+# Define the input parameters 1
+param   Styrkur :=
+        P   2.25
+        V   40
+        B   40
+        M   1.5;
+
+# Define the input parameters 2
+param Kostn :=
+        P   100
+        V   2000
+        B   3000
+        M   120;

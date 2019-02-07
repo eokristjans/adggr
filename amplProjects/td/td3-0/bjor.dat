@@ -1,0 +1,15 @@
+# Skilgreinum afengistegundir, vidfangsefni verkefnisins
+set Afengi := Pilsner Vodka Brandy Malt;
+
+# Skilgreinum thekktar staerdir sem velta a tegund afengis
+param Styrkur :=
+Pilsner 2.25
+Vodka 40
+Brandy 40
+Malt 1.5;
+
+param Kostn :=
+Pilsner 100
+Vodka 2000
+Brandy 3000
+Malt 120;
