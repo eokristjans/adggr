@@ -1,0 +1,6 @@
+reset;
+model OffEq.mod;
+data OffEq.dat;
+option solver gurobi;
+solve totalProfit;
+display x;

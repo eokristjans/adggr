@@ -1,0 +1,19 @@
+set Model := A B;
+
+param mats :=
+        A       1.5
+        B       2.5
+        ;
+
+param time :=
+        A   1.2
+        B   1.4
+        ;
+
+param profit :=
+        A   30
+        B   45
+        ;
+
+# Fyndid daemi thvi thad var oskyrt
+# ad thad faeri sama efni i bordploturnar og i faeturna
