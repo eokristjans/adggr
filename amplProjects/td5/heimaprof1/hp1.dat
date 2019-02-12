@@ -1,0 +1,21 @@
+set Stadir := Isaf Rauf;
+
+param kostnadur :=
+        Isaf    180
+        Rauf    160
+        ;
+
+param ysa :=
+        Isaf    9
+        Rauf    4
+        ;
+
+param thorskur :=
+        Isaf    4
+        Rauf    5
+        ;
+
+param karfi :=
+        Isaf    6
+        Rauf    10
+        ;
