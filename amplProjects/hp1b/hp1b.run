@@ -1,0 +1,6 @@
+reset;
+model hp1b.mod;
+data hp1b.dat;
+option solver gurobi;
+solve hagnadur;
+display x;

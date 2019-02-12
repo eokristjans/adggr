@@ -1,0 +1,36 @@
+set Togari      := 1 2 3;
+set Verksmidja  := Rey Akr;
+
+param verd :=
+            1   110
+            2   100
+            3   90
+            ;
+
+param frambod :=
+            1   202000
+            2   315000
+            3   421000
+            ;
+
+
+param flkostn : Rey     Akr :=
+            1   30      35
+            2   20      25
+            3   60      40
+            ;
+
+param magn :=
+        Rey     460000
+        Akr     560000
+        ;
+
+param laun :=
+        Rey     5
+        Akr     4
+        ;
+
+param soluverd :=
+        Rey     150
+        Akr     150
+        ;
