@@ -1,0 +1,9 @@
+reset;
+model hp1.mod;
+data hp1.dat;
+option solver gurobi;
+solve samtalsKostnadur;
+display x;
+display ysaConstr;
+display thorskurConstr;
+display karfiConstr;
