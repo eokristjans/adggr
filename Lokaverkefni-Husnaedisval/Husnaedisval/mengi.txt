@@ -1,0 +1,19 @@
+Matsvaedi(stadsetningar) = {
+Arbaer
+Midbaer
+Kopavogur
+Hafnarfjordur
+Laugarneshverfi/Vogar
+Gerdin
+Breidholt
+Grafarvogur
+Vesturbaer
+Seltjarnanes
+Haaleiti
+Hlidar
+Fossvogur
+Gardabaer
+Mosfellsbaer
+Grafarholt
+Hlutlaus
+};

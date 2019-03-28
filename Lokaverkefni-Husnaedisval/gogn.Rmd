@@ -1,0 +1,36 @@
+---
+title: "Húsnæðisval"
+output: html_document
+---
+
+```{r, echo=F, warning=F, message=F}
+library(tidyr)
+library(dplyr)
+library(ggplot2)
+library(knitr)
+library(reshape2)
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Úrvinnsla gagna
+
+```{r}
+eignir<-read.csv("Husnaedisval/eignirnar.txt",sep=";",fileEncoding = "UTF8")
+kunnar<-read.csv("Husnaedisval/kunnar.txt",sep=",",fileEncoding = "UTF8")
+```
+
+```{r}
+str(eignir)
+```
+
+```{r}
+unique(eignir$matssvaedi)
+```
+
+
+```{r}
+unique(kunnar$pref_stad)
+```
