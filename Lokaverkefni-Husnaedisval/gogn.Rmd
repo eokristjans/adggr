@@ -20,10 +20,10 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r}
 eignir<-read.csv("Husnaedisval/eignirnar.txt",sep=";",fileEncoding = "UTF8")
 kunnar<-read.csv("Husnaedisval/kunnar.txt",sep=",",fileEncoding = "UTF8")
+fjarlaegdir<-read.csv("Husnaedisval/timafjarlaegdir.txt",sep=" ",fileEncoding = "UTF8")
 ```
 
 ```{r}
-str(eignir)
 ```
 
 ```{r}
@@ -31,6 +31,110 @@ unique(eignir$matssvaedi)
 ```
 
 
-```{r}
-unique(kunnar$pref_stad)
+```{r} 
+# Búum til vigur með ákjósanlegum staðsetningum
+as_matsvaedi <- as.vector(kunnar$pref_stad)
+# Bætum við hann ásættanlegum staðsetningum
+kps <- as.character(kunnar$pref_stad)
+for(i in 1:length(kps)) {
+  for(j in 1:length(fjarlaegdir)){
+    # Haettum lykkju og setjum bara "Hlutlaus" ef þeir eru hlutlausir
+    if(kunnar$as_timi[i] >= 33) {
+      as_matsvaedi[i] = "Hlutlaus"
+      break
+    }
+    if(kunnar$as_timi[i] >= fjarlaegdir[kps[i]][[1]][j]) {
+      if(!grepl(colnames(fjarlaegdir[j]), as_matsvaedi[i])) { # engin duplicate-values takk
+        as_matsvaedi[i] <- paste(as_matsvaedi[i], colnames(fjarlaegdir[j]), sep=" ")
+      }
+    }
+  }
+}
+# Setjum vigurinn í töfluna
+kunnar$as_matsvaedi <- as_matsvaedi
 ```
+
+```{r}
+# Hendum óþarfa upplýsingum
+drop <- c("byggar", "fjherb", "pref_stad", "as_timi")
+eignir <- eignir[ ,!(names(eignir) %in% drop)]
+kunnar <- kunnar[ ,!(names(kunnar) %in% drop)]
+```
+
+```{r}
+# fjarlægjum eignir sem enginn á efni á
+maxGreidslugeta <- max(kunnar$greidslugeta)/(1000*0.005)
+eignir<-eignir[!(eignir$nuvirdi > maxGreidslugeta),]
+# og thaer sem enginn vill
+minGaedakrofur <- min(kunnar$gaedi)
+eignir<-eignir[!(eignir$gaedi < minGaedakrofur),]
+# og thaer sem eru of litlar fyrir alla
+minStaerdarkrofur <- min(kunnar$staerd)
+eignir<-eignir[!(eignir$ibm2 < minStaerdarkrofur),]
+```
+
+```{r}
+# Vistum töflur
+write.table(x = eignir, file="C:\\Users\\Erling Oskar\\Documents\\hi\\v19\\adggr\\Lokaverkefni-Husnaedisval\\GognErling\\eignir.txt", sep="\t")
+write.table(x = kunnar, file="C:\\Users\\Erling Oskar\\Documents\\hi\\v19\\adggr\\Lokaverkefni-Husnaedisval\\GognErling\\kunnar.txt", sep="\t")
+```
+
+```{r}
+
+findMaxSumLessThanS <- function(arr, n, S){
+  curr_sum = arr[1]
+  max_sum = 0
+  start = 1
+  
+  for(i in 1:n) {
+    if(curr_sum <= S){
+      max_sum = max(max_sum, curr_sum)
+    }
+    while(TRUE) {
+      if(curr_sum+arr[i] > S & start < i){
+        curr_sum = curr_sum - arr[start]
+        print(curr_sum+arr[i] > S)
+        print(start < i)
+        start = start+1
+      }
+    }
+    
+    curr_sum = curr_sum + arr[i]
+  }
+  if(curr_sum <= S){
+    max_sum = max(max_sum, curr_sum)
+  }
+  return(max_sum)
+}
+
+vec <- eignir$nuvirdi
+# findMaxSumLessThanS(arr=vec, n=length(vec), S=6300000.0)
+
+
+```
+
+```{r}
+dupl_nuv = unique(round(eignir$nuvirdi/100))
+
+write.csv(x = dupl_nuv, file="C:\\Users\\Erling Oskar\\Documents\\hi\\v19\\adggr\\Lokaverkefni-Husnaedisval\\GognErling\\uniqueNuvirdi.txt", row.names = FALSE)
+
+```
+
+```{r}
+dyrustu100 = head(sort(unique(eignir$nuvirdi), decreasing=TRUE),100)
+write.csv(x = dyrustu100, file="C:\\Users\\Erling Oskar\\Documents\\hi\\v19\\adggr\\Lokaverkefni-Husnaedisval\\GognErling\\dyrustu100Nuvirdi.txt", row.names = FALSE)
+sum(dyrustu100[1:66])*1000
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
