@@ -16357,7 +16357,6 @@
 "16686"	16686	56365.4	"ibudareign"	120	"Fossvogur"	4.031
 "16687"	16687	55897.4	"ibudareign"	126.8	"Hlidar"	3.776
 "16688"	16688	36258.3	"ibudareign"	105.2	"Hafnarfjordur"	3.366
-"NA"	NA	NA	NA	NA	NA	NA
 "16690"	16690	54735.2	"einbylishus"	216.9	"Gerdin"	3.081
 "16691"	16691	20412.6	"ibudareign"	34.3	"Haaleiti"	3.344
 "16692"	16692	44822.7	"ibudareign"	79.4	"LaugarneshverfiVogar"	4.501
@@ -16494,8 +16493,6 @@
 "16830"	16830	54860	"ibudareign"	98.9	"Vesturbaer"	4.014
 "16831"	16831	46755.8	"ibudareign"	74.4	"Seltjarnanes"	4.433
 "16832"	16832	35335.3	"ibudareign"	100.7	"Hafnarfjordur"	3.57
-"NA.1"	NA	NA	NA	NA	NA	NA
-"NA.2"	NA	NA	NA	NA	NA	NA
 "16835"	16835	33800	"ibudareign"	102.6	"LaugarneshverfiVogar"	3.061
 "16836"	16836	18592.6	"ibudareign"	46.4	"LaugarneshverfiVogar"	3.639
 "16837"	16837	28810.6	"ibudareign"	88.9	"Kopavogur"	2.961

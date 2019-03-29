@@ -1,5 +1,5 @@
 ---
-title: "Húsnæðisval"
+title: "Húsnæðisval - Alls ekki keyra þetta í heild"
 output: html_document
 ---
 
@@ -21,13 +21,17 @@ knitr::opts_chunk$set(echo = TRUE)
 eignir<-read.csv("Husnaedisval/eignirnar.txt",sep=";",fileEncoding = "UTF8")
 kunnar<-read.csv("Husnaedisval/kunnar.txt",sep=",",fileEncoding = "UTF8")
 fjarlaegdir<-read.csv("Husnaedisval/timafjarlaegdir.txt",sep=" ",fileEncoding = "UTF8")
+gogn.dir <- "C:\\Users\\Erling Oskar\\Documents\\hi\\v19\\adggr\\Lokaverkefni-Husnaedisval\\GognErling\\"
+fjarmagn <- 6300000 # *1000
 ```
 
 ```{r}
 ```
 
 ```{r}
-unique(eignir$matssvaedi)
+# Hendum línum ef það vantar upplýsingar í þær
+eignir <- na.omit(eignir)
+kunnar <- na.omit(kunnar)
 ```
 
 
@@ -80,7 +84,79 @@ write.table(x = kunnar, file="C:\\Users\\Erling Oskar\\Documents\\hi\\v19\\adggr
 ```
 
 ```{r}
+#Skoða gögnin almennilega
+ggplot() + geom_histogram(data=eignir, aes(nuvirdi), binwidth = 1000) + labs(x='Núvirði', y='Fjöldi')
 
+nuvirdi.mean <- mean(eignir$nuvirdi)
+nuvirdi.sd <- sd(eignir$nuvirdi)
+
+vaentur_fjoldi <- fjarmagn/nuvirdi.mean
+```
+
+```{r}
+
+```
+
+```{r}
+
+eignir.sample.df.list <- list()
+eignir.sample.df.list[[i]] <- eignir.sample
+
+
+
+eignir.sample <- sample_n(eignir, size=(vaentur_fjoldi))
+nuvirdi_sum.sample <- sum(eignir.sample$nuvirdi)
+delta <- fjarmagn-nuvirdi_sum.sample
+while (!(delta > 0 & delta < 5)) {
+  eignir.sample <- sample_n(eignir, size=vaentur_fjoldi)
+  nuvirdi_sum.sample <- sum(eignir.sample$nuvirdi)
+  delta <- fjarmagn-nuvirdi_sum.sample
+}
+
+
+str(eignir)$nuvirdi
+```
+
+```{r}
+# eignir.sample_delta32 <- eignir.sample
+# eignir.sample_delta44 <- eignir.sample
+# eignir.sample_delta9 <- eignir.sample
+# eignir.sample_delta2 <- eignir.sample
+# eignir.sample_delta2a <- eignir.sample.df.list[[3]]
+
+eignir.sample.list.sorted <- list()
+i <-1
+for (esl in eignir.sample.list) {
+    eignir.sample.list.sorted[[i]] <- esl[order(esl$nrhus),]
+    i = i+1
+}
+
+
+
+# write.table(x = eignir.sample.list.sorted[[1]], file=paste(gogn.dir, "eignir-sample4.txt"), sep="\t")
+# write.table(x = eignir.sample.list.sorted[[2]], file=paste(gogn.dir, "eignir-sample5.txt"), sep="\t")
+# write.table(x = eignir.sample.list.sorted[[3]], file=paste(gogn.dir, "eignir-sample3.txt"), sep="\t")
+# write.table(x = eignir.sample.list.sorted[[4]], file=paste(gogn.dir, "eignir-sample2.txt"), sep="\t")
+# write.table(x = eignir.sample.list.sorted[[5]], file=paste(gogn.dir, "eignir-sample1.txt"), sep="\t")
+
+
+for (esl in eignir.sample.list) {
+    print(sum(esl$nuvirdi))
+}
+
+
+eignir.sample.list <- list(eignir.sample_delta32, eignir.sample_delta44, eignir.sample_delta9, eignir.sample_delta2, eignir.sample_delta2a)
+
+```
+
+```{r}
+
+```
+
+
+
+```{r}
+#Skoða gögnin - fikta
 findMaxSumLessThanS <- function(arr, n, S){
   curr_sum = arr[1]
   max_sum = 0
@@ -111,30 +187,15 @@ vec <- eignir$nuvirdi
 # findMaxSumLessThanS(arr=vec, n=length(vec), S=6300000.0)
 
 
-```
 
-```{r}
 dupl_nuv = unique(round(eignir$nuvirdi/100))
 
 write.csv(x = dupl_nuv, file="C:\\Users\\Erling Oskar\\Documents\\hi\\v19\\adggr\\Lokaverkefni-Husnaedisval\\GognErling\\uniqueNuvirdi.txt", row.names = FALSE)
 
-```
 
-```{r}
 dyrustu100 = head(sort(unique(eignir$nuvirdi), decreasing=TRUE),100)
 write.csv(x = dyrustu100, file="C:\\Users\\Erling Oskar\\Documents\\hi\\v19\\adggr\\Lokaverkefni-Husnaedisval\\GognErling\\dyrustu100Nuvirdi.txt", row.names = FALSE)
 sum(dyrustu100[1:66])*1000
-```
-
-```{r}
-
-```
-
-```{r}
-
-```
-
-```{r}
 
 ```
 
