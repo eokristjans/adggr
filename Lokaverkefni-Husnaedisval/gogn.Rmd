@@ -26,12 +26,25 @@ fjarmagn <- 6300000 # *1000
 ```
 
 ```{r}
+# Eyda alveg gagnslausu drasli
+drop <- c("byggar", "fjherb", "teg_eign")
+eignir <- eignir[ ,!(names(eignir) %in% drop)]
+kunnar <- kunnar[ ,!(names(kunnar) %in% drop)]
+
+# Leita ad tomum gildum og set videigandi gildi i stadinn
+eignir[!complete.cases(eignir),]
+eignir$gaedi[[16689]] <- 0
+eignir$gaedi[[16833]] <- 0
+eignir$gaedi[[16834]] <- 0
+
+kunnar[!complete.cases(kunnar),]
+
 ```
 
 ```{r}
 # Hendum línum ef það vantar upplýsingar í þær
-eignir <- na.omit(eignir)
-kunnar <- na.omit(kunnar)
+# eignir <- na.omit(eignir)
+# kunnar <- na.omit(kunnar)
 ```
 
 
@@ -55,59 +68,266 @@ for(i in 1:length(kps)) {
   }
 }
 # Setjum vigurinn í töfluna
-kunnar$as_matsvaedi <- as_matsvaedi
+# kunnar$as_matsvaedi <- as_matsvaedi
 ```
 
 ```{r}
 # Hendum óþarfa upplýsingum
-drop <- c("byggar", "fjherb", "pref_stad", "as_timi")
+drop <- c("byggar", "fjherb", "pref_stad", "as_timi", "teg_eign")
 eignir <- eignir[ ,!(names(eignir) %in% drop)]
 kunnar <- kunnar[ ,!(names(kunnar) %in% drop)]
+eignir <- eignir[ ,!(names(eignir) %in% c("nrhus"))]
+kunnar <- kunnar[ ,!(names(kunnar) %in% c("nrkunna"))]
 ```
 
 ```{r}
+### Eydileggur indexing
 # fjarlægjum eignir sem enginn á efni á
-maxGreidslugeta <- max(kunnar$greidslugeta)/(1000*0.005)
-eignir<-eignir[!(eignir$nuvirdi > maxGreidslugeta),]
+# maxGreidslugeta <- max(kunnar$greidslugeta)/(1000*0.005)
+# eignir<-eignir[!(eignir$nuvirdi > maxGreidslugeta),]
 # og thaer sem enginn vill
-minGaedakrofur <- min(kunnar$gaedi)
-eignir<-eignir[!(eignir$gaedi < minGaedakrofur),]
+# minGaedakrofur <- min(kunnar$gaedi)
+# eignir<-eignir[!(eignir$gaedi < minGaedakrofur),]
 # og thaer sem eru of litlar fyrir alla
-minStaerdarkrofur <- min(kunnar$staerd)
-eignir<-eignir[!(eignir$ibm2 < minStaerdarkrofur),]
+# minStaerdarkrofur <- min(kunnar$staerd)
+# eignir<-eignir[!(eignir$ibm2 < minStaerdarkrofur),]
 ```
 
 ```{r}
 # Vistum töflur
-write.table(x = eignir, file="C:\\Users\\Erling Oskar\\Documents\\hi\\v19\\adggr\\Lokaverkefni-Husnaedisval\\GognErling\\eignir.txt", sep="\t")
-write.table(x = kunnar, file="C:\\Users\\Erling Oskar\\Documents\\hi\\v19\\adggr\\Lokaverkefni-Husnaedisval\\GognErling\\kunnar.txt", sep="\t")
+
+# Breytum nrhus og nrkunna í talnabreytur
+# write.table(x = eignir$nrhus, row.names = F, file="C:\\Users\\Erling Oskar\\Documents\\hi\\v19\\adggr\\Lokaverkefni-Husnaedisval\\GognErling\\eignir_nr.txt", sep="\t")
+# write.table(x = kunnar$nrkunna, row.names = F, file="C:\\Users\\Erling Oskar\\Documents\\hi\\v19\\adggr\\Lokaverkefni-Husnaedisval\\GognErling\\kunnar_nr.txt", sep="\t")
+# Lesum talnabreyturnar inn
+eignir <- cbind(eignir, read.table("C:\\Users\\Erling Oskar\\Documents\\hi\\v19\\adggr\\Lokaverkefni-Husnaedisval\\GognErling\\eignir_nr.txt",sep="\t",fileEncoding = "UTF8"))
+names(eignir) <- c("nuvirdi", "ibm2", "matssvaedi", "gaedi", "nrhus")
+
+kunnar <-cbind(kunnar, read.table("C:\\Users\\Erling Oskar\\Documents\\hi\\v19\\adggr\\Lokaverkefni-Husnaedisval\\GognErling\\kunnar_nr.txt",sep="\t",fileEncoding = "UTF8"))
+names(kunnar) <- c("gaedi", "staerd", "greidslugeta", "nrkunna")
+
+eignir <- eignir[c("nrhus", "nuvirdi", "ibm2", "matssvaedi", "gaedi")]
+
+kunnar <- kunnar[c("nrkunna", "gaedi", "staerd", "greidslugeta")]
+
+
+# Vistum töfluar
+# write.table(x = eignir, row.names = F, file="C:\\Users\\Erling Oskar\\Documents\\hi\\v19\\adggr\\Lokaverkefni-Husnaedisval\\GognErling\\eignir.txt", sep="\t")
+# write.table(x = kunnar, row.names = F, file="C:\\Users\\Erling Oskar\\Documents\\hi\\v19\\adggr\\Lokaverkefni-Husnaedisval\\GognErling\\kunnar.txt", sep="\t")
+
 ```
 
 ```{r}
-#Skoða gögnin almennilega
+#Skoða eignirnar almennilega
 ggplot() + geom_histogram(data=eignir, aes(nuvirdi), binwidth = 1000) + labs(x='Núvirði', y='Fjöldi')
 
 nuvirdi.mean <- mean(eignir$nuvirdi)
 nuvirdi.sd <- sd(eignir$nuvirdi)
 
-vaentur_fjoldi <- fjarmagn/nuvirdi.mean
-```
-
-```{r}
+vaentur_fjoldi <- round(fjarmagn/nuvirdi.mean)
 
 ```
 
 ```{r}
+#Skoða kúnnana almennilega
+ggplot() + geom_histogram(data=kunnar, aes(greidslugeta), binwidth = 10000) + labs(x='Greiðslugeta', y='Fjöldi')
 
-eignir.sample.df.list <- list()
+ggplot() + geom_histogram(data=kunnar, aes(gaedi), binwidth = 0.1) + labs(x='Gæði', y='Fjöldi')
+
+ggplot() + geom_histogram(data=kunnar, aes(staerd), binwidth = 10) + labs(x='Stærð', y='Fjöldi')
+
+
+greidslugeta.mean <- mean(kunnar$greidslugeta)
+greidslugeta.sd <- sd(kunnar$greidslugeta)
+
+110000/(0.005*1000)
+180000/(0.005*1000)
+
+```
+
+## Leitir
+
+```{r}
+# Tilraun til að gera margar leitir í öllum gögnunum
+
+for (i in (1:1000000)) {
+  es = sample_n(eignir, size=(vaentur_fjoldi-1))
+  nuvSum = sum(es$nuvirdi)
+  d = fjarmagn-nuvSum
+  if(d>=0 & d<=5){
+    if(d<1){
+      print("success [0,1)")
+      es <- es[order(es$nrhus),]
+      eignir.sample.df.list0[[length(eignir.sample.df.list0)+1]] <- es
+    }
+    else {
+      print("success [1,5]")
+      es <- es[order(es$nrhus),]
+      eignir.sample.df.list123[[length(eignir.sample.df.list123)+1]] <- es
+    }
+  }
+}
+
+
+for (i in (1:1000000)) {
+  es = sample_n(eignir, size=(vaentur_fjoldi))
+  nuvSum = sum(es$nuvirdi)
+  d = fjarmagn-nuvSum
+  if(d>=0 & d<=5){
+    if(d<1){
+      print("success [0,1)")
+      es <- es[order(es$nrhus),]
+      eignir.sample.df.list0[[length(eignir.sample.df.list0)+1]] <- es
+    }
+    else {
+      print("success [1,5]")
+      es <- es[order(es$nrhus),]
+      eignir.sample.df.list123[[length(eignir.sample.df.list123)+1]] <- es
+    }
+  }
+}
+
+
+for (i in (1:1000000)) {
+  es = sample_n(eignir, size=(vaentur_fjoldi+1))
+  nuvSum = sum(es$nuvirdi)
+  d = fjarmagn-nuvSum
+  if(d>=0 & d<=5){
+    if(d<1){
+      print("success [0,1)")
+      es <- es[order(es$nrhus),]
+      eignir.sample.df.list0[[length(eignir.sample.df.list0)+1]] <- es
+    }
+    else {
+      print("success [1,5]")
+      es <- es[order(es$nrhus),]
+      eignir.sample.df.list123[[length(eignir.sample.df.list123)+1]] <- es
+    }
+  }
+}
+
+eignir.omit <- na.omit(eignir)
+
+
+for(i in (1:length(eignir.omit$nrhus))){
+  if (i != eignir.omit$nrhus[i]){
+    print(i)
+  }
+}
+```
+
+
+```{r}
+# Gera leitir í dýrari eignum
+eignir_dyrar <- eignir[eignir$nuvirdi > 60000, ]
+nuvirdi_dyrar.mean <- mean(eignir_dyrar$nuvirdi)
+nuvirdi_dyrar.sd <- sd(eignir_dyrar$nuvirdi)
+vaentur_fjoldi_dyrar <- round(fjarmagn/nuvirdi_dyrar.mean)
+
+
+for (i in (1:1000000)) {
+  es = sample_n(eignir_dyrar, size=(vaentur_fjoldi_dyrar))
+  nuvSum = sum(es$nuvirdi)
+  d = fjarmagn-nuvSum
+  if(d>=0 & d<=5){
+    if(d<1){
+      print("success [0,1)")
+      es <- es[order(es$nrhus),]
+      eignir.sample.df.list0[[length(eignir.sample.df.list0)+1]] <- es
+    }
+    else {
+      print("success [1,5]")
+      es <- es[order(es$nrhus),]
+      eignir.sample.df.list123[[length(eignir.sample.df.list123)+1]] <- es
+    }
+  }
+}
+
+for (i in (1:1000000)) {
+  es = sample_n(eignir_dyrar, size=(vaentur_fjoldi_dyrar-1))
+  nuvSum = sum(es$nuvirdi)
+  d = fjarmagn-nuvSum
+  if(d>=0 & d<=5){
+    if(d<1){
+      print("success [0,1)")
+      es <- es[order(es$nrhus),]
+      eignir.sample.df.list0[[length(eignir.sample.df.list0)+1]] <- es
+    }
+    else {
+      print("success [1,5]")
+      es <- es[order(es$nrhus),]
+      eignir.sample.df.list123[[length(eignir.sample.df.list123)+1]] <- es
+    }
+  }
+}
+
+for (i in (1:1000000)) {
+  es = sample_n(eignir_dyrar, size=(vaentur_fjoldi_dyrar+1))
+  nuvSum = sum(es$nuvirdi)
+  d = fjarmagn-nuvSum
+  if(d>=0 & d<=5){
+    if(d<1){
+      print("success [0,1)")
+      es <- es[order(es$nrhus),]
+      eignir.sample.df.list0[[length(eignir.sample.df.list0)+1]] <- es
+    }
+    else {
+      print("success [1,5]")
+      es <- es[order(es$nrhus),]
+      eignir.sample.df.list123[[length(eignir.sample.df.list123)+1]] <- es
+    }
+  }
+}
+
+
+for (e in eignir.sample.df.list123) {
+  print((fjarmagn-sum(e$nuvirdi)))
+}
+
+
+for (esl in eignir.sample.list.sorted2) {
+  print(sum(esl$nuvirdi))
+}
+
+```
+
+
+```{r}
+# Gera leitir í eignum á góðu verðbili
+eignir_godar <- eignir[(eignir$nuvirdi > 22000 & eignir$nuvirdi < 36000), ]
+nuvirdi_godar.mean <- mean(eignir_godar$nuvirdi)
+nuvirdi_godar.sd <- sd(eignir_godar$nuvirdi)
+vaentur_fjoldi_godar <- round(fjarmagn/nuvirdi_godar.mean)
+
+# eignir.gott_sample.df.list <-list()
+
+for (i in (1:1000000)) {
+  es = sample_n(eignir_godar, size=(vaentur_fjoldi_godar))
+  nuvSum = sum(es$nuvirdi)
+  d = fjarmagn-nuvSum
+  if(d>=0 & d<2){
+    print("success [0,2)")
+    es <- es[order(es$nrhus),]
+    eignir.gott_sample.df.list[[length(eignir.gott_sample.df.list)+1]] <- es
+  }
+}
+
+```
+
+
+```{r}
+# Gera leitir í öllum gögnunum
 eignir.sample.df.list[[i]] <- eignir.sample
 
+
+eignir.sample.df.list0 <- list()
+eignir.sample.df.list123 <- list()
 
 
 eignir.sample <- sample_n(eignir, size=(vaentur_fjoldi))
 nuvirdi_sum.sample <- sum(eignir.sample$nuvirdi)
 delta <- fjarmagn-nuvirdi_sum.sample
-while (!(delta > 0 & delta < 5)) {
+while (!(delta >= 0 & delta < 2)) {
   eignir.sample <- sample_n(eignir, size=vaentur_fjoldi)
   nuvirdi_sum.sample <- sum(eignir.sample$nuvirdi)
   delta <- fjarmagn-nuvirdi_sum.sample
@@ -123,6 +343,10 @@ str(eignir)$nuvirdi
 # eignir.sample_delta9 <- eignir.sample
 # eignir.sample_delta2 <- eignir.sample
 # eignir.sample_delta2a <- eignir.sample.df.list[[3]]
+# Búið að vista efstu 5, enga hér fyrir neðan
+# eignir.sample_delta2b <- eignir.sample.df.list0[[1]] 
+
+
 
 eignir.sample.list.sorted <- list()
 i <-1
@@ -130,14 +354,24 @@ for (esl in eignir.sample.list) {
     eignir.sample.list.sorted[[i]] <- esl[order(esl$nrhus),]
     i = i+1
 }
-
-
+mean(eignir.sample.list.sorted2[[4]]$nuvirdi)*0.005*1000
 
 # write.table(x = eignir.sample.list.sorted[[1]], file=paste(gogn.dir, "eignir-sample4.txt"), sep="\t")
 # write.table(x = eignir.sample.list.sorted[[2]], file=paste(gogn.dir, "eignir-sample5.txt"), sep="\t")
 # write.table(x = eignir.sample.list.sorted[[3]], file=paste(gogn.dir, "eignir-sample3.txt"), sep="\t")
 # write.table(x = eignir.sample.list.sorted[[4]], file=paste(gogn.dir, "eignir-sample2.txt"), sep="\t")
 # write.table(x = eignir.sample.list.sorted[[5]], file=paste(gogn.dir, "eignir-sample1.txt"), sep="\t")
+
+# of dýrar
+# write.table(x = eignir.sample.list.sorted2[[1]], file=paste(gogn.dir, "eignir-sample01.txt"), sep="\t")
+# write.table(x = eignir.sample.list.sorted2[[2]], file=paste(gogn.dir, "eignir-sample02.txt"), sep="\t")
+# write.table(x = eignir.sample.list.sorted2[[3]], file=paste(gogn.dir, "eignir-sample03.txt"), sep="\t")
+# write.table(x = eignir.sample.list.sorted2[[4]], file=paste(gogn.dir, "eignir-sample04.txt"), sep="\t")
+# write.table(x = eignir.sample.list.sorted2[[5]], file=paste(gogn.dir, "eignir-sample05.txt"), sep="\t")
+# write.table(x = eignir.sample.list.sorted2[[6]], file=paste(gogn.dir, "eignir-sample06.txt"), sep="\t")
+# write.table(x = eignir.sample.list.sorted2[[7]], file=paste(gogn.dir, "eignir-sample07.txt"), sep="\t")
+# write.table(x = eignir.sample.list.sorted2[[8]], file=paste(gogn.dir, "eignir-sample08.txt"), sep="\t")
+
 
 
 for (esl in eignir.sample.list) {
@@ -150,7 +384,112 @@ eignir.sample.list <- list(eignir.sample_delta32, eignir.sample_delta44, eignir.
 ```
 
 ```{r}
+ggplot() + geom_histogram(data=eignir.gott_sample.df.list[[4]], aes(nuvirdi*0.005*1000), binwidth = 10000) + labs(x='Núvirði', y='Fjöldi')
+ggplot() + geom_histogram(data=eignir.gott_sample.df.list[[4]], aes(gaedi), binwidth = 0.1) + labs(x='Gæði', y='Fjöldi')
+ggplot() + geom_histogram(data=eignir.gott_sample.df.list[[4]], aes(ibm2), binwidth = 10) + labs(x='Stærð', y='Fjöldi')
 
+ggplot() + geom_bar(data=eignir.gott_sample.df.list[[4]], aes(matssvaedi)) + labs(x='Stærð', y='Fjöldi')
+
+```
+
+```{r}
+# write.table(x = eignir.gott_sample.df.list[[1]], file=paste(gogn.dir, "eignir-sample01.txt"), sep="\t")
+# write.table(x = eignir.gott_sample.df.list[[2]], file=paste(gogn.dir, "eignir-sample02.txt"), sep="\t")
+# write.table(x = eignir.gott_sample.df.list[[3]], file=paste(gogn.dir, "eignir-sample03.txt"), sep="\t")
+# write.table(x = eignir.gott_sample.df.list[[4]], file=paste(gogn.dir, "eignir-sample04.txt"), sep="\t")
+# write.table(x = eignir.gott_sample.df.list[[5]], file=paste(gogn.dir, "eignir-sample05.txt"), sep="\t")
+# write.table(x = eignir.gott_sample.df.list[[6]], file=paste(gogn.dir, "eignir-sample06.txt"), sep="\t")
+# write.table(x = eignir.gott_sample.df.list[[7]], file=paste(gogn.dir, "eignir-sample07.txt"), sep="\t")
+
+```
+
+```{r}
+head(as_matsvaedi,10)
+
+mnofn <- c("nrkunna", "Arbaer", "Midbaer", "Kopavogur", "Hafnarfjordur", "LaugarneshverfiVogar", "Gerdin", "Breidholt", "Grafarvogur", "Vesturbaer", "Seltjarnanes", "Haaleiti", "Hlidar", "Fossvogur", "Gardabaer", "Mosfellsbaer", "Grafarholt")
+
+as_matssvaedi <- data.frame("Arbaer", "Midbaer", "Kopavogur", "Hafnarfjordur", "LaugarneshverfiVogar", "Gerdin", "Breidholt", "Grafarvogur", "Vesturbaer", "Seltjarnanes", "Haaleiti", "Hlidar", "Fossvogur", "Gardabaer", "Mosfellsbaer", "Grafarholt")
+
+names(as_matsvaedi) <- mnofn
+
+as_matssvaedi.matrix <- matrix(data = mnofn, nrow = 1, ncol = 17)
+
+for(j in (1:length(as_matsvaedi))){
+  c = vector(length=17)
+  c[1] <- j
+  for(i in (2:length(mnofn))){
+    if(grepl(mnofn[i], as_matsvaedi[j]) | grepl("Hlutlaus", as_matsvaedi[j])){
+      c[i] <- 1
+    }
+  }
+  as_matssvaedi.matrix <- rbind(as_matssvaedi.matrix, c)
+}
+  
+as_matssvaedi.matrix <- as_matssvaedi.matrix[-1,] 
+as_matssvaedi.df <- as.data.frame(as_matssvaedi.matrix)
+names(as_matssvaedi.df) <- mnofn
+as_matssvaedi.df$nrkunna <- factor(as_matssvaedi.df$nrkunna)
+
+# write.table(x = as_matssvaedi.df, file="C:\\Users\\Erling Oskar\\Documents\\hi\\v19\\adggr\\Lokaverkefni-Husnaedisval\\GognErling\\as_matssvaedi.txt", sep="\t", row.names = FALSE)
+
+str(as_mats)
+
+# Setjum vigurinn í töfluna
+kunnar$as_matsvaedi <- as_matsvaedi
+```
+
+```{r}
+
+mnofn <- c("nribud", "Arbaer", "Midbaer", "Kopavogur", "Hafnarfjordur", "LaugarneshverfiVogar", "Gerdin", "Breidholt", "Grafarvogur", "Vesturbaer", "Seltjarnanes", "Haaleiti", "Hlidar", "Fossvogur", "Gardabaer", "Mosfellsbaer", "Grafarholt")
+mnofn2 <- c("nribud", "Ar", "Mi", "Ko", "Hf", "LV", "Ge", "Br", "Gv", "Ve", "Se", "Ha", "Hl", "Fo", "Ga", "Mo", "Gh")
+
+# eignir <- eignir[ ,!(names(eignir) %in% drop)]
+
+eignir_matssvaedi <- eignir
+eignir_matssvaedi$nuvirdi <- NULL
+eignir_matssvaedi$ibm2 <- NULL
+eignir_matssvaedi$gaedi <- NULL
+eignir_matssvaedi$nrhus <- NULL
+
+eignir_matssvaedi.list <- vector()
+for(j in (1:length(eignir_matssvaedi$matssvaedi))){
+  for(i in (2:length(mnofn2))){
+    if(grepl(mnofn[i], eignir_matssvaedi$matssvaedi[j])){
+      eignir_matssvaedi.list[j] <- mnofn2[i]
+    }
+  }
+}
+
+eignir_matssvaedi <- as.data.frame(eignir_matssvaedi.list)
+str(eignir_matssvaedi)
+
+write.table(x = eignir_matssvaedi, file="C:\\Users\\Erling Oskar\\Documents\\hi\\v19\\adggr\\Lokaverkefni-Husnaedisval\\GognErling\\eignir_matssvaedi2.txt", sep="\t", row.names = T)
+
+
+eignir_matssvaedi.matrix <- matrix(data = mnofn, nrow = 1, ncol = 17)
+
+for(j in (1:length(eignir_matssvaedi$matssvaedi))){
+  c = vector(length=17)
+  c[1] <- j
+  for(i in (2:length(mnofn))){
+    if(grepl(mnofn[i], eignir_matssvaedi$matssvaedi[j])){
+      c[1] <- mnofn[i]
+    }
+  }
+  eignir_matssvaedi.matrix <- rbind(eignir_matssvaedi.matrix, c)
+}
+
+
+eignir_matssvaedi.matrix <- eignir_matssvaedi.matrix[-1,] 
+eignir_matssvaedi <- as.data.frame(eignir_matssvaedi.matrix)
+names(eignir_matssvaedi) <- mnofn
+
+write.table(x = eignir_matssvaedi, file="C:\\Users\\Erling Oskar\\Documents\\hi\\v19\\adggr\\Lokaverkefni-Husnaedisval\\GognErling\\eignir_matssvaedi.txt", sep="\t", row.names = FALSE)
+
+str(as_mats)
+
+# Setjum vigurinn í töfluna
+kunnar$as_matsvaedi <- as_matsvaedi
 ```
 
 
@@ -196,6 +535,5 @@ write.csv(x = dupl_nuv, file="C:\\Users\\Erling Oskar\\Documents\\hi\\v19\\adggr
 dyrustu100 = head(sort(unique(eignir$nuvirdi), decreasing=TRUE),100)
 write.csv(x = dyrustu100, file="C:\\Users\\Erling Oskar\\Documents\\hi\\v19\\adggr\\Lokaverkefni-Husnaedisval\\GognErling\\dyrustu100Nuvirdi.txt", row.names = FALSE)
 sum(dyrustu100[1:66])*1000
-
 ```
 

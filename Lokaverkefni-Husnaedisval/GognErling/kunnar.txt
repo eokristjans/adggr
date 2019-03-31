@@ -1,1001 +1,1001 @@
-"nrkunna"	"gaedi"	"staerd"	"greidslugeta"	"as_matsvaedi"
-"1"	1	1.812	148	184144	"Grafarvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"2"	2	2.406	45	162435	"Arbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"3"	3	1.89	118	138315	"Haaleiti Hlidar Fossvogur Gerdin"
-"4"	4	2.084	77	166634	"Hlutlaus"
-"5"	5	3.14	114	138615	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Fossvogur Haaleiti Gerdin Seltjarnarnes Kopavogur"
-"6"	6	3.081	179	218229	"Grafarholt Grafarvogur"
-"7"	7	2.885	50	84238	"Hlutlaus"
-"8"	8	2.777	164	132856	"Grafarholt Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"9"	9	2.096	270	233079	"Seltjarnarnes"
-"10"	10	2.45	70	182500	"Breidholt Vesturbaer Hlidar LaugarneshverfiVogar Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"11"	11	3.349	104	129237	"Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"12"	12	4.045	77	124588	"Hlutlaus"
-"13"	13	2.092	155	123723	"Hlutlaus"
-"14"	14	1.804	125	132081	"Arbaer Breidholt Gerdin"
-"15"	15	2.113	98	139180	"Breidholt"
-"16"	16	4.253	68	209079	"Vesturbaer Midbaer Seltjarnarnes"
-"17"	17	2.964	85	168063	"Vesturbaer Hlidar LaugarneshverfiVogar Fossvogur Midbaer Haaleiti Gerdin Seltjarnarnes"
-"18"	18	2.618	87	226172	"Arbaer LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"19"	19	2.513	164	125965	"Hlutlaus"
-"20"	20	3.329	88	235399	"Gardabaer Breidholt Fossvogur Kopavogur"
-"21"	21	3.286	132	169909	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"22"	22	3.164	121	144861	"Gerdin Fossvogur"
-"23"	23	3.288	117	134850	"Breidholt Hlidar LaugarneshverfiVogar Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Kopavogur"
-"24"	24	2.784	45	148537	"Hlutlaus"
-"25"	25	2.823	73	122953	"Breidholt Hlidar LaugarneshverfiVogar Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"26"	26	2.833	110	167402	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"27"	27	3.348	63	203593	"Hlutlaus"
-"28"	28	2.822	75	136711	"Hlutlaus"
-"29"	29	1.976	86	115412	"Grafarvogur Breidholt Grafarholt Arbaer Gerdin Mosfellsbaer"
-"30"	30	2.331	122	168578	"Grafarholt Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"31"	31	3.04	85	180546	"Fossvogur Hlidar LaugarneshverfiVogar Breidholt Arbaer Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"32"	32	2.918	105	131264	"Hlutlaus"
-"33"	33	3.465	77	162100	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"34"	34	3.38	105	128356	"Gardabaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Kopavogur Hafnarfjordur Mosfellsbaer"
-"35"	35	2.008	84	170580	"Grafarholt Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"36"	36	2.076	195	158653	"Grafarvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"37"	37	4.126	158	266391	"Midbaer"
-"38"	38	3.45	80	209048	"Arbaer"
-"39"	39	3.591	122	138027	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"40"	40	3.545	172	198806	"Hafnarfjordur Gardabaer"
-"41"	41	3.676	79	213301	"Grafarholt"
-"42"	42	3.205	86	186202	"Grafarholt Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"43"	43	3.423	55	197663	"Arbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"44"	44	3.221	74	185039	"Arbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"45"	45	2.702	92	138595	"Hafnarfjordur"
-"46"	46	3.147	91	121026	"Breidholt"
-"47"	47	3.093	97	121824	"Hlutlaus"
-"48"	48	2.924	92	157182	"Hlidar Vesturbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"49"	49	2.71	162	135497	"Fossvogur Hlidar LaugarneshverfiVogar Breidholt Arbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"50"	50	2.548	100	201377	"Hlidar"
-"51"	51	2.997	128	132608	"Gerdin Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"52"	52	4.092	67	207669	"Kopavogur Hlidar Breidholt Fossvogur Haaleiti Gardabaer"
-"53"	53	2.118	70	234328	"Grafarholt Arbaer Grafarvogur Mosfellsbaer"
-"54"	54	2.923	42	113422	"Hlutlaus"
-"55"	55	3.309	68	193371	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"56"	56	2.354	81	162991	"Hlidar Vesturbaer LaugarneshverfiVogar Fossvogur Midbaer Haaleiti Gerdin Kopavogur"
-"57"	57	2.693	107	123636	"Seltjarnarnes Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"58"	58	1.717	91	150805	"Vesturbaer Hlidar LaugarneshverfiVogar Fossvogur Midbaer Haaleiti Gerdin Seltjarnarnes Kopavogur"
-"59"	59	2.064	104	155040	"Kopavogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Hafnarfjordur Mosfellsbaer"
-"60"	60	1.818	74	183662	"Breidholt Vesturbaer Hlidar LaugarneshverfiVogar Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"61"	61	1.926	74	77443	"Hlutlaus"
-"62"	62	3.628	119	144789	"Hlutlaus"
-"63"	63	3.238	72	168345	"Seltjarnarnes Vesturbaer Hlidar Midbaer"
-"64"	64	2.922	80	109748	"Breidholt Arbaer Fossvogur Gerdin Gardabaer Kopavogur"
-"65"	65	3.119	170	213386	"Haaleiti Hlidar LaugarneshverfiVogar Breidholt Fossvogur Gerdin Kopavogur"
-"66"	66	3.349	105	130278	"LaugarneshverfiVogar Hlidar Breidholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"67"	67	3.145	55	147731	"Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"68"	68	3.488	77	134279	"Grafarholt Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"69"	69	2.787	74	194931	"Gardabaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Kopavogur Hafnarfjordur Mosfellsbaer"
-"70"	70	3.695	155	188055	"Kopavogur Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer"
-"71"	71	2.198	120	134285	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"72"	72	1.809	94	197063	"Kopavogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Hafnarfjordur"
-"73"	73	3.329	145	165632	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"74"	74	2.381	71	156762	"Fossvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"75"	75	2.56	77	196716	"Fossvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"76"	76	2.948	85	162159	"Kopavogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Hafnarfjordur Mosfellsbaer"
-"77"	77	2.54	68	130963	"Hlutlaus"
-"78"	78	3.177	92	143539	"Seltjarnarnes Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"79"	79	2.013	81	142704	"Grafarvogur Grafarholt Arbaer"
-"80"	80	2.054	159	132296	"Hlutlaus"
-"81"	81	2.224	176	138501	"Mosfellsbaer"
-"82"	82	4.188	98	154566	"Hlidar Vesturbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"83"	83	3.805	99	136427	"Hlidar Vesturbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"84"	84	3.899	45	134713	"Gardabaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"85"	85	4.191	87	142742	"Gardabaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Kopavogur Hafnarfjordur Mosfellsbaer"
-"86"	86	4.066	97	152813	"Mosfellsbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"87"	87	3.741	62	147524	"Hlidar Vesturbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"88"	88	3.618	118	147678	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Kopavogur"
-"89"	89	1.92	79	129860	"Hlidar Vesturbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"90"	90	2.536	168	133483	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"91"	91	3.081	76	186994	"Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"92"	92	3.477	55	166660	"Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"93"	93	2.506	87	140893	"Hlutlaus"
-"94"	94	2.735	81	153259	"Hlidar Vesturbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"95"	95	2.471	70	132891	"Grafarholt Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"96"	96	2.781	116	121369	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur"
-"97"	97	3.028	80	184659	"Seltjarnarnes Vesturbaer Hlidar LaugarneshverfiVogar Fossvogur Midbaer Haaleiti Gerdin"
-"98"	98	2.38	74	166532	"Grafarholt Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"99"	99	2.747	236	181578	"Hlutlaus"
-"100"	100	3.128	185	220768	"Fossvogur"
-"101"	101	2.891	167	135101	"Gardabaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"102"	102	2.51	115	127751	"Haaleiti Fossvogur Gerdin"
-"103"	103	3.077	59	153200	"Vesturbaer Hlidar LaugarneshverfiVogar Fossvogur Midbaer Haaleiti Gerdin Seltjarnarnes Kopavogur"
-"104"	104	2.333	102	174652	"Breidholt Vesturbaer Hlidar LaugarneshverfiVogar Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"105"	105	2.582	109	181197	"Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Seltjarnarnes Kopavogur"
-"106"	106	2.705	107	162748	"Grafarvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"107"	107	3.777	117	143391	"Hlutlaus"
-"108"	108	3.214	107	125803	"Gerdin Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gardabaer Kopavogur Mosfellsbaer"
-"109"	109	2.68	124	125114	"Breidholt Vesturbaer Hlidar LaugarneshverfiVogar Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"110"	110	4.295	70	149382	"Grafarholt Breidholt Arbaer Grafarvogur Gerdin Mosfellsbaer"
-"111"	111	2.61	67	201466	"Haaleiti Hlidar Fossvogur Gerdin"
-"112"	112	2.242	150	121689	"Grafarvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"113"	113	1.934	56	116788	"Hlutlaus"
-"114"	114	3.109	81	126178	"Kopavogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Hafnarfjordur Mosfellsbaer"
-"115"	115	3.217	83	176960	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"116"	116	3.608	102	122656	"Breidholt Hlidar LaugarneshverfiVogar Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Kopavogur"
-"117"	117	2.111	117	171632	"Arbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"118"	118	3.228	66	141256	"Midbaer Vesturbaer Hlidar"
-"119"	119	2.878	69	214518	"Gardabaer Breidholt Kopavogur"
-"120"	120	1.906	92	181249	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"121"	121	3.516	127	153749	"Breidholt Hlidar LaugarneshverfiVogar Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"122"	122	3.065	81	122048	"Breidholt"
-"123"	123	1.993	131	154034	"Grafarvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"124"	124	1.803	142	193380	"Grafarvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"125"	125	1.962	75	91118	"Gardabaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"126"	126	3.032	102	152782	"Gardabaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Kopavogur Hafnarfjordur"
-"127"	127	2.859	48	79222	"Gardabaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Kopavogur Hafnarfjordur Mosfellsbaer"
-"128"	128	2.814	78	163155	"Gardabaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Kopavogur Hafnarfjordur"
-"129"	129	3.945	93	200601	"Haaleiti"
-"130"	130	3.998	146	174181	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"131"	131	2.127	82	130895	"Breidholt Vesturbaer Hlidar LaugarneshverfiVogar Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"132"	132	2.826	63	104053	"Mosfellsbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"133"	133	2.982	74	193170	"Kopavogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Hafnarfjordur"
-"134"	134	2.866	109	142702	"Seltjarnarnes"
-"135"	135	3.484	140	162182	"Gerdin Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Haaleiti"
-"136"	136	2.505	86	131941	"Hlutlaus"
-"137"	137	3.683	127	143705	"Breidholt Vesturbaer Hlidar LaugarneshverfiVogar Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"138"	138	2.465	109	184630	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur"
-"139"	139	3.05	195	230569	"Hlidar Haaleiti"
-"140"	140	2.919	240	196086	"Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur"
-"141"	141	3.432	97	121954	"Hlutlaus"
-"142"	142	2.932	153	127788	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"143"	143	3.212	131	152661	"Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur"
-"144"	144	2.712	84	153824	"Kopavogur Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer"
-"145"	145	1.828	124	121680	"Hafnarfjordur"
-"146"	146	2.002	162	136115	"Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"147"	147	2.458	104	190385	"Fossvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"148"	148	3.038	127	162591	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Haaleiti Gerdin Seltjarnarnes Kopavogur"
-"149"	149	2.528	92	129834	"Hlutlaus"
-"150"	150	2.882	53	127160	"Hlidar"
-"151"	151	4.764	153	249325	"Breidholt Arbaer Fossvogur Gerdin Gardabaer Kopavogur"
-"152"	152	2.644	228	168456	"Vesturbaer Hlidar LaugarneshverfiVogar Fossvogur Midbaer Haaleiti Gerdin Seltjarnarnes Kopavogur"
-"153"	153	2.677	84	120177	"Gerdin Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"154"	154	4.264	80	126611	"Hafnarfjordur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"155"	155	3.002	78	197398	"Mosfellsbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Grafarvogur Gerdin"
-"156"	156	2.188	88	142020	"Hlutlaus"
-"157"	157	2.722	64	133828	"Hlutlaus"
-"158"	158	3.906	110	131311	"Hlutlaus"
-"159"	159	3.587	122	148682	"Mosfellsbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur"
-"160"	160	2.725	68	221925	"Hlutlaus"
-"161"	161	3.322	81	135339	"Gerdin Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"162"	162	2.739	55	161320	"Grafarvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"163"	163	2.421	74	160563	"Fossvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"164"	164	2.936	178	138900	"Fossvogur Haaleiti Gerdin"
-"165"	165	2.813	100	135252	"Mosfellsbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur"
-"166"	166	2.347	48	91122	"Grafarvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"167"	167	2.86	77	142372	"Hlutlaus"
-"168"	168	2.622	177	140582	"Gerdin Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"169"	169	2.771	119	196304	"Gerdin Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gardabaer Kopavogur Mosfellsbaer"
-"170"	170	3.029	92	120555	"LaugarneshverfiVogar Hlidar Fossvogur Haaleiti Gerdin"
-"171"	171	2.04	140	144246	"Gardabaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"172"	172	2.105	185	148720	"Vesturbaer"
-"173"	173	2.986	262	193361	"Vesturbaer Hlidar Midbaer Haaleiti Seltjarnarnes"
-"174"	174	2.654	85	153420	"Breidholt LaugarneshverfiVogar Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Kopavogur"
-"175"	175	3.573	70	161462	"Fossvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"176"	176	2.809	114	120918	"Gerdin Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gardabaer Kopavogur Mosfellsbaer"
-"177"	177	2.714	220	177891	"Grafarholt Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"178"	178	2.956	94	151886	"Breidholt Hlidar LaugarneshverfiVogar Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"179"	179	2.739	116	155404	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur"
-"180"	180	3.993	106	127469	"Mosfellsbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Kopavogur"
-"181"	181	2.708	83	171303	"Fossvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"182"	182	3.363	89	137042	"Mosfellsbaer Grafarholt Arbaer Grafarvogur"
-"183"	183	2.204	57	146657	"Vesturbaer Hlidar Midbaer Haaleiti Seltjarnarnes"
-"184"	184	2.022	67	126274	"Mosfellsbaer Grafarholt Arbaer Grafarvogur"
-"185"	185	2.96	125	166443	"Kopavogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Hafnarfjordur Mosfellsbaer"
-"186"	186	2.029	103	187668	"Arbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"187"	187	2.051	123	128232	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"188"	188	2.943	53	157662	"Hlidar Vesturbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"189"	189	2.513	133	133888	"Arbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"190"	190	2.676	110	170876	"Hafnarfjordur"
-"191"	191	2.745	144	133577	"Hlutlaus"
-"192"	192	2.565	110	150243	"Mosfellsbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Kopavogur"
-"193"	193	2.654	100	162811	"Hafnarfjordur LaugarneshverfiVogar Breidholt Fossvogur Haaleiti Gerdin Gardabaer Kopavogur"
-"194"	194	2.301	88	126704	"Hlutlaus"
-"195"	195	3.552	56	170149	"Hafnarfjordur Breidholt Gardabaer Kopavogur"
-"196"	196	1.899	98	185262	"Grafarvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"197"	197	2.586	83	151131	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"198"	198	2.632	91	228404	"Seltjarnarnes"
-"199"	199	3.345	63	198592	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"200"	200	2.325	112	138925	"Gardabaer Breidholt Kopavogur"
-"201"	201	2.311	69	132644	"Grafarholt Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"202"	202	3.212	70	134432	"Kopavogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Hafnarfjordur"
-"203"	203	3.16	105	123546	"Breidholt Gardabaer Kopavogur"
-"204"	204	3.275	67	151571	"Fossvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"205"	205	3.926	37	212384	"Grafarholt Arbaer Grafarvogur Gerdin Mosfellsbaer"
-"206"	206	3.312	96	145466	"Hlutlaus"
-"207"	207	2.281	101	126384	"Breidholt Vesturbaer Hlidar LaugarneshverfiVogar Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"208"	208	2.925	86	120450	"Hafnarfjordur Breidholt Gardabaer Kopavogur"
-"209"	209	3.041	188	220764	"Gardabaer"
-"210"	210	2.671	51	128129	"Seltjarnarnes Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"211"	211	2.243	130	137123	"Arbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"212"	212	2.772	123	143367	"Gerdin Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gardabaer Kopavogur"
-"213"	213	2.39	211	178140	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Haaleiti Gerdin Seltjarnarnes Kopavogur"
-"214"	214	3.987	104	130029	"Hafnarfjordur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"215"	215	2.903	185	155520	"Breidholt Vesturbaer Hlidar LaugarneshverfiVogar Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"216"	216	2.568	64	120739	"Hafnarfjordur"
-"217"	217	2.831	157	132530	"Kopavogur Hlidar LaugarneshverfiVogar Breidholt Fossvogur Haaleiti Gerdin Gardabaer"
-"218"	218	3.324	109	128987	"Hlidar Vesturbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"219"	219	2.665	124	131065	"LaugarneshverfiVogar Hlidar Fossvogur Haaleiti Gerdin"
-"220"	220	3.402	90	123156	"Grafarvogur"
-"221"	221	2.299	145	122107	"Grafarvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"222"	222	2.417	123	134002	"Mosfellsbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur"
-"223"	223	2.612	102	151897	"Mosfellsbaer Grafarholt Arbaer Grafarvogur"
-"224"	224	3.474	109	135677	"Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"225"	225	2.469	83	151417	"Seltjarnarnes Vesturbaer Hlidar Midbaer"
-"226"	226	2.481	75	147586	"Gerdin Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"227"	227	2.963	80	156046	"Arbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"228"	228	2.655	90	160883	"Gardabaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Kopavogur Hafnarfjordur"
-"229"	229	3.548	76	183013	"Haaleiti Hlidar LaugarneshverfiVogar Breidholt Fossvogur Gerdin Kopavogur"
-"230"	230	3.664	114	136813	"Seltjarnarnes Vesturbaer"
-"231"	231	2.887	116	222352	"Grafarvogur"
-"232"	232	3.388	89	144810	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"233"	233	2.232	108	201839	"Vesturbaer"
-"234"	234	3.128	61	171250	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"235"	235	3.954	94	136011	"Hlutlaus"
-"236"	236	3.356	92	141576	"Hlutlaus"
-"237"	237	2.636	124	137465	"Vesturbaer Hlidar Midbaer Haaleiti Seltjarnarnes"
-"238"	238	3.162	74	189696	"Gardabaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Kopavogur Hafnarfjordur"
-"239"	239	2.431	94	146736	"Hlutlaus"
-"240"	240	2.396	158	121047	"Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"241"	241	2.402	73	135685	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"242"	242	2.77	97	123096	"Kopavogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Hafnarfjordur Mosfellsbaer"
-"243"	243	2.119	92	129640	"Mosfellsbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur"
-"244"	244	1.931	62	76580	"Hlidar Haaleiti"
-"245"	245	3.275	104	163415	"Hafnarfjordur Breidholt Gardabaer Kopavogur"
-"246"	246	2.721	117	158464	"Hlutlaus"
-"247"	247	3.039	166	198199	"Hlidar Vesturbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"248"	248	3.274	61	233568	"Grafarholt Breidholt Arbaer Grafarvogur Gerdin Mosfellsbaer"
-"249"	249	2.836	110	179610	"Breidholt Vesturbaer Hlidar LaugarneshverfiVogar Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"250"	250	2.615	83	178311	"Hafnarfjordur Breidholt Gardabaer Kopavogur"
-"251"	251	3.087	102	160020	"Fossvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"252"	252	3.574	76	145381	"Hlutlaus"
-"253"	253	3.526	59	137617	"Hlidar Vesturbaer LaugarneshverfiVogar Breidholt Fossvogur Midbaer Haaleiti Gerdin Kopavogur"
-"254"	254	3.457	136	168879	"Hafnarfjordur Gardabaer"
-"255"	255	3.152	65	140528	"Hlutlaus"
-"256"	256	2.88	129	127661	"Fossvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"257"	257	2.1	130	141080	"Vesturbaer Hlidar Midbaer Seltjarnarnes"
-"258"	258	2.45	96	168052	"Kopavogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Hafnarfjordur Mosfellsbaer"
-"259"	259	2.666	220	175269	"Hlutlaus"
-"260"	260	2.809	57	186053	"Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur"
-"261"	261	3.533	54	133326	"Hlidar Vesturbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"262"	262	2.065	142	144018	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Haaleiti Gerdin Seltjarnarnes Kopavogur"
-"263"	263	4.006	179	281353	"LaugarneshverfiVogar"
-"264"	264	3.499	113	131642	"Grafarvogur Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"265"	265	2.341	52	141538	"Seltjarnarnes Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"266"	266	3.27	130	154963	"Gardabaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"267"	267	3.334	250	305923	"Arbaer Breidholt Grafarholt Grafarvogur Gerdin"
-"268"	268	3.019	88	126189	"Hlutlaus"
-"269"	269	2.535	131	122694	"Hlidar Vesturbaer LaugarneshverfiVogar Midbaer Haaleiti"
-"270"	270	2.503	174	143946	"Arbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"271"	271	2.778	68	139526	"Arbaer"
-"272"	272	2.549	62	138277	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"273"	273	2.741	179	140491	"Hafnarfjordur Breidholt Gardabaer Kopavogur"
-"274"	274	2.332	102	125779	"Gardabaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"275"	275	3.018	155	185441	"Arbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"276"	276	2.75	83	180423	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"277"	277	3.921	106	122729	"Arbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"278"	278	4.226	84	136568	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"279"	279	2.948	121	122835	"Fossvogur Haaleiti Gerdin"
-"280"	280	3.045	60	146279	"Seltjarnarnes Vesturbaer Hlidar LaugarneshverfiVogar Fossvogur Midbaer Haaleiti Gerdin"
-"281"	281	3.077	68	143186	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"282"	282	2.902	78	149953	"Hlutlaus"
-"283"	283	1.836	64	114167	"Hlidar Vesturbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"284"	284	2.662	161	127583	"Hlutlaus"
-"285"	285	3.588	130	158527	"Gardabaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Kopavogur Hafnarfjordur Mosfellsbaer"
-"286"	286	3.187	77	144749	"Hlutlaus"
-"287"	287	2.672	89	134775	"Hlutlaus"
-"288"	288	1.956	127	145145	"Gerdin Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gardabaer Kopavogur"
-"289"	289	2.117	142	136340	"Grafarholt Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"290"	290	3.55	192	234068	"Hlutlaus"
-"291"	291	3.277	96	142203	"Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"292"	292	3.046	100	153730	"Hafnarfjordur"
-"293"	293	3.171	95	159834	"Gardabaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Kopavogur Hafnarfjordur"
-"294"	294	3	68	185762	"Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur"
-"295"	295	3.031	121	139389	"Arbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"296"	296	2.756	126	155836	"Grafarvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"297"	297	2.651	79	121018	"Hafnarfjordur Gardabaer"
-"298"	298	3.993	80	178395	"Gardabaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Kopavogur Hafnarfjordur"
-"299"	299	3.885	74	231727	"Seltjarnarnes Vesturbaer"
-"300"	300	4.182	58	153370	"Grafarholt Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"301"	301	4.284	243	376311	"Hafnarfjordur"
-"302"	302	3.117	189	234419	"Fossvogur Hlidar LaugarneshverfiVogar Breidholt Haaleiti Gerdin"
-"303"	303	3.058	75	204857	"Midbaer Vesturbaer"
-"304"	304	3.08	87	150887	"Mosfellsbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Kopavogur"
-"305"	305	4.098	93	147591	"Gardabaer"
-"306"	306	3.046	206	248239	"Breidholt"
-"307"	307	2.014	106	158768	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur"
-"308"	308	2.548	216	173717	"Grafarvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"309"	309	3.466	54	123674	"LaugarneshverfiVogar"
-"310"	310	2.117	106	141499	"Hlutlaus"
-"311"	311	2.369	63	146578	"Gardabaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Kopavogur Hafnarfjordur Mosfellsbaer"
-"312"	312	3.344	73	138336	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"313"	313	4.327	139	218659	"Fossvogur Gerdin"
-"314"	314	2.562	186	139350	"Grafarholt Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"315"	315	2.374	90	126015	"Mosfellsbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Kopavogur"
-"316"	316	3.996	86	199849	"Hlutlaus"
-"317"	317	3.298	104	127150	"Fossvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"318"	318	4.631	120	191157	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"319"	319	3.026	94	226117	"Vesturbaer Hlidar Midbaer Haaleiti Seltjarnarnes"
-"320"	320	2.724	72	240345	"Arbaer LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"321"	321	2.766	69	202121	"Hlutlaus"
-"322"	322	2.606	80	169416	"Breidholt Vesturbaer Hlidar LaugarneshverfiVogar Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"323"	323	3.158	162	199375	"LaugarneshverfiVogar Hlidar Breidholt Arbaer Fossvogur Haaleiti Gerdin Gardabaer Kopavogur"
-"324"	324	3.014	90	135833	"Fossvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"325"	325	2.76	134	224243	"Gardabaer LaugarneshverfiVogar Breidholt Fossvogur Gerdin Kopavogur"
-"326"	326	3.228	101	122622	"Hlutlaus"
-"327"	327	2.219	119	221099	"Haaleiti Hlidar Fossvogur Gerdin"
-"328"	328	2.253	67	130452	"Gerdin LaugarneshverfiVogar Breidholt Arbaer Fossvogur Haaleiti"
-"329"	329	2.92	194	158734	"Mosfellsbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Kopavogur"
-"330"	330	3.143	94	122069	"Grafarholt Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"331"	331	3.062	83	122003	"Kopavogur Breidholt Gardabaer"
-"332"	332	2.615	86	182046	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"333"	333	3.025	101	155123	"Gardabaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Kopavogur Hafnarfjordur Mosfellsbaer"
-"334"	334	3.115	152	175365	"Seltjarnarnes Vesturbaer Hlidar LaugarneshverfiVogar Midbaer"
-"335"	335	2.7	103	221736	"Midbaer"
-"336"	336	3.864	136	167209	"Grafarholt Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"337"	337	3.182	97	121483	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur"
-"338"	338	2.935	75	131281	"Gerdin Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gardabaer Kopavogur"
-"339"	339	2.769	170	142333	"Hlutlaus"
-"340"	340	3.677	65	122519	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"341"	341	2.434	92	181147	"Hlidar Vesturbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"342"	342	2.998	103	128576	"Hlutlaus"
-"343"	343	2.225	123	168998	"Gardabaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Kopavogur Hafnarfjordur Mosfellsbaer"
-"344"	344	3.572	185	219281	"Fossvogur Hlidar LaugarneshverfiVogar Breidholt Arbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"345"	345	3.136	86	136282	"Hafnarfjordur"
-"346"	346	3.45	155	181272	"Hlutlaus"
-"347"	347	3.809	61	135585	"Hlidar Vesturbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"348"	348	4.083	101	160162	"Hlutlaus"
-"349"	349	3.512	65	149977	"Hlutlaus"
-"350"	350	2.568	93	185480	"Hafnarfjordur Gardabaer"
-"351"	351	3.379	225	272194	"Hlutlaus"
-"352"	352	2.923	87	171665	"Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Seltjarnarnes Kopavogur"
-"353"	353	3.606	216	249345	"Mosfellsbaer Grafarholt Arbaer Grafarvogur"
-"354"	354	3.672	53	159812	"Fossvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"355"	355	3.001	154	187954	"Hafnarfjordur"
-"356"	356	3.26	96	154296	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"357"	357	2.448	123	132040	"Vesturbaer Midbaer Seltjarnarnes"
-"358"	358	3.145	74	151204	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"359"	359	3.168	180	210036	"Arbaer Breidholt Grafarholt Fossvogur Grafarvogur Gerdin"
-"360"	360	2.745	212	159513	"Mosfellsbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"361"	361	3.723	74	206843	"Seltjarnarnes Vesturbaer Midbaer"
-"362"	362	3.178	99	127636	"Hlutlaus"
-"363"	363	3.601	164	197306	"Hlutlaus"
-"364"	364	1.764	70	51932	"Kopavogur Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer"
-"365"	365	2.571	81	174425	"Seltjarnarnes Vesturbaer Hlidar LaugarneshverfiVogar Fossvogur Midbaer Haaleiti Gerdin"
-"366"	366	3.362	106	127196	"Grafarvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"367"	367	3.046	77	129630	"Hlutlaus"
-"368"	368	2.844	101	165867	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"369"	369	2.496	95	176756	"Kopavogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer"
-"370"	370	2.803	146	156193	"Arbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"371"	371	2.9	86	123942	"Breidholt Vesturbaer Hlidar LaugarneshverfiVogar Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"372"	372	3.375	130	143116	"Fossvogur Haaleiti Gerdin"
-"373"	373	3.649	104	130773	"Gardabaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Kopavogur Hafnarfjordur"
-"374"	374	2.61	162	122319	"Gerdin Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"375"	375	3.109	75	189912	"Fossvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"376"	376	3.833	114	130541	"Hlutlaus"
-"377"	377	2.698	63	142957	"Hlutlaus"
-"378"	378	2.897	77	150517	"Arbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"379"	379	2.061	72	147221	"Breidholt"
-"380"	380	3.051	120	140652	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"381"	381	2.545	36	85692	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"382"	382	3.333	85	138065	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"383"	383	2.602	96	153385	"Hafnarfjordur Gardabaer"
-"384"	384	2.104	110	174163	"Grafarvogur Breidholt Grafarholt Arbaer Gerdin Mosfellsbaer"
-"385"	385	2.448	57	145445	"Hlutlaus"
-"386"	386	3.039	73	134260	"Gardabaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Kopavogur Hafnarfjordur"
-"387"	387	1.863	82	78629	"Mosfellsbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur"
-"388"	388	2.819	92	120773	"Fossvogur Hlidar LaugarneshverfiVogar Breidholt Haaleiti Gerdin"
-"389"	389	3.701	97	121195	"Mosfellsbaer"
-"390"	390	3.333	136	150995	"Gardabaer LaugarneshverfiVogar Breidholt Arbaer Fossvogur Haaleiti Gerdin Kopavogur"
-"391"	391	2.747	122	123169	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur"
-"392"	392	3.574	109	132112	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"393"	393	3.76	65	215511	"Hafnarfjordur"
-"394"	394	2.333	82	173709	"Hlidar Vesturbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"395"	395	3.028	78	132765	"Hlutlaus"
-"396"	396	3.81	113	136828	"Hlutlaus"
-"397"	397	2.54	80	170225	"Gardabaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Kopavogur Hafnarfjordur Mosfellsbaer"
-"398"	398	3.61	51	109824	"Hlutlaus"
-"399"	399	3.056	101	121713	"Mosfellsbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur"
-"400"	400	3.403	110	132531	"Hlutlaus"
-"401"	401	2.801	59	132932	"Gerdin Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"402"	402	3.444	52	199232	"Grafarholt Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"403"	403	4.177	102	159204	"Arbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"404"	404	2.811	69	146351	"Hafnarfjordur"
-"405"	405	2.085	109	125381	"Midbaer Vesturbaer Hlidar Haaleiti Seltjarnarnes"
-"406"	406	3.041	111	137060	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"407"	407	1.888	166	124361	"Fossvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"408"	408	2.533	87	125273	"LaugarneshverfiVogar Gerdin"
-"409"	409	3.79	119	144590	"Hlutlaus"
-"410"	410	3.839	69	188446	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Seltjarnarnes Kopavogur"
-"411"	411	2.476	59	158916	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"412"	412	3.594	173	210938	"Grafarholt Grafarvogur"
-"413"	413	3.01	84	192979	"Gardabaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"414"	414	2.66	111	163871	"Grafarvogur Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"415"	415	2.242	98	120316	"Breidholt Arbaer Fossvogur Gerdin Gardabaer Kopavogur"
-"416"	416	3.299	137	162137	"Breidholt Hlidar LaugarneshverfiVogar Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"417"	417	2.625	142	150549	"Kopavogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Hafnarfjordur"
-"418"	418	2.318	111	170722	"Seltjarnarnes Vesturbaer Midbaer"
-"419"	419	3.737	96	139207	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Fossvogur Haaleiti Gerdin Seltjarnarnes Kopavogur"
-"420"	420	3.087	61	140085	"Hlutlaus"
-"421"	421	3.308	143	176721	"Hlutlaus"
-"422"	422	2.623	216	182229	"Hafnarfjordur Gardabaer"
-"423"	423	2.384	58	177886	"Vesturbaer Hlidar Midbaer Haaleiti Seltjarnarnes"
-"424"	424	2.508	93	139623	"Hlutlaus"
-"425"	425	3.298	122	140490	"Hlutlaus"
-"426"	426	3.034	58	155310	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"427"	427	3.178	144	163130	"Haaleiti Hlidar LaugarneshverfiVogar Breidholt Fossvogur Gerdin Kopavogur"
-"428"	428	3.061	115	140647	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"429"	429	2.503	181	144920	"Hlutlaus"
-"430"	430	2.003	129	126225	"Midbaer Vesturbaer Hlidar"
-"431"	431	3.249	72	172267	"Grafarvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"432"	432	2.979	91	141333	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"433"	433	2.741	152	142682	"Fossvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"434"	434	3.404	262	315853	"Kopavogur Breidholt Gardabaer"
-"435"	435	3.131	88	219968	"Gardabaer Breidholt Fossvogur Kopavogur"
-"436"	436	2.335	78	152942	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"437"	437	2.563	145	122830	"Hlutlaus"
-"438"	438	2.595	246	214488	"Breidholt"
-"439"	439	2.537	256	212646	"Grafarvogur Grafarholt"
-"440"	440	3.667	160	201180	"Vesturbaer Midbaer"
-"441"	441	2.875	97	165923	"Kopavogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Hafnarfjordur Mosfellsbaer"
-"442"	442	2.638	101	181661	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"443"	443	2.714	108	166203	"Kopavogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Hafnarfjordur Mosfellsbaer"
-"444"	444	3.537	121	136052	"Hlutlaus"
-"445"	445	3.853	77	241467	"Midbaer Vesturbaer Hlidar"
-"446"	446	2.09	54	139038	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Kopavogur"
-"447"	447	3.995	63	161275	"Arbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"448"	448	3.647	152	180755	"Gardabaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"449"	449	1.764	87	125771	"Hlidar Vesturbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"450"	450	2.532	104	122034	"Mosfellsbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Kopavogur"
-"451"	451	3.091	87	140509	"Vesturbaer Midbaer Seltjarnarnes"
-"452"	452	3.502	82	122317	"Vesturbaer"
-"453"	453	2.517	120	183529	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Seltjarnarnes Kopavogur"
-"454"	454	2.733	265	225086	"Mosfellsbaer"
-"455"	455	2.07	56	204086	"Breidholt Arbaer Fossvogur Gerdin Gardabaer Kopavogur"
-"456"	456	3.802	89	124886	"Hafnarfjordur"
-"457"	457	3.507	90	130667	"Seltjarnarnes Vesturbaer Hlidar LaugarneshverfiVogar Midbaer"
-"458"	458	1.78	122	120202	"Gardabaer Breidholt Kopavogur"
-"459"	459	2.674	308	240860	"Mosfellsbaer"
-"460"	460	1.736	62	102858	"Gardabaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Kopavogur Hafnarfjordur Mosfellsbaer"
-"461"	461	3.644	276	329575	"Gardabaer Breidholt Fossvogur Kopavogur"
-"462"	462	2.944	147	134733	"Grafarholt Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"463"	463	1.855	123	92649	"Hlutlaus"
-"464"	464	4.175	95	152363	"Grafarvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"465"	465	3.138	179	216415	"Kopavogur Hlidar LaugarneshverfiVogar Breidholt Fossvogur Haaleiti Gerdin Gardabaer"
-"466"	466	3.203	79	137764	"Haaleiti"
-"467"	467	1.805	48	99162	"Hlutlaus"
-"468"	468	2.347	70	129339	"Hlutlaus"
-"469"	469	2.518	134	140781	"Grafarholt Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"470"	470	3.206	97	140868	"Fossvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"471"	471	3.293	159	194069	"Hlidar Vesturbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"472"	472	3.688	93	124287	"Hlutlaus"
-"473"	473	3.908	214	256791	"Grafarvogur"
-"474"	474	2.804	78	172223	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"475"	475	3.036	82	246521	"Breidholt Hlidar LaugarneshverfiVogar Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Kopavogur"
-"476"	476	2.723	144	120633	"Seltjarnarnes Vesturbaer"
-"477"	477	3.311	169	200862	"Hlutlaus"
-"478"	478	2.509	71	193534	"Grafarholt Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"479"	479	4.531	85	135395	"Gerdin Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"480"	480	1.946	83	126521	"Breidholt"
-"481"	481	2.555	134	122040	"Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"482"	482	3.948	77	176817	"Seltjarnarnes Vesturbaer Hlidar LaugarneshverfiVogar Fossvogur Midbaer Haaleiti"
-"483"	483	3.657	69	154177	"Arbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"484"	484	2.866	73	148361	"Breidholt Vesturbaer Hlidar LaugarneshverfiVogar Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"485"	485	3.914	84	208942	"Fossvogur Hlidar LaugarneshverfiVogar Breidholt Arbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"486"	486	2.047	97	122946	"Midbaer Vesturbaer Hlidar"
-"487"	487	2.996	93	233179	"Seltjarnarnes Vesturbaer"
-"488"	488	3.835	74	123078	"Kopavogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Hafnarfjordur Mosfellsbaer"
-"489"	489	3.691	100	122632	"Hafnarfjordur Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"490"	490	3.516	136	158528	"Hafnarfjordur LaugarneshverfiVogar Breidholt Fossvogur Haaleiti Gerdin Gardabaer Kopavogur"
-"491"	491	2.923	136	166624	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"492"	492	1.962	68	125643	"Hlutlaus"
-"493"	493	3.442	79	142778	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"494"	494	3.346	73	124517	"Kopavogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Hafnarfjordur Mosfellsbaer"
-"495"	495	2.483	91	182807	"Vesturbaer Hlidar LaugarneshverfiVogar Fossvogur Midbaer Haaleiti Gerdin Seltjarnarnes"
-"496"	496	3.636	55	125015	"Kopavogur"
-"497"	497	3.653	125	148615	"Hlutlaus"
-"498"	498	3.246	51	119257	"Kopavogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Hafnarfjordur Mosfellsbaer"
-"499"	499	2.677	58	122166	"Hlutlaus"
-"500"	500	3.157	115	141352	"Hlutlaus"
-"501"	501	3.642	196	236105	"Hafnarfjordur"
-"502"	502	2.686	58	200509	"Grafarholt Grafarvogur"
-"503"	503	3.286	153	174795	"Seltjarnarnes Vesturbaer Hlidar LaugarneshverfiVogar Midbaer Haaleiti"
-"504"	504	2.207	96	138800	"Hlutlaus"
-"505"	505	3.485	78	136565	"Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Fossvogur Midbaer Haaleiti Gerdin Seltjarnarnes Kopavogur"
-"506"	506	2.821	72	150718	"Hlutlaus"
-"507"	507	2.862	104	196693	"Mosfellsbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Kopavogur"
-"508"	508	2.501	183	138319	"Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"509"	509	2.981	116	236303	"Fossvogur Haaleiti Gerdin"
-"510"	510	4.195	170	271469	"Arbaer LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"511"	511	3.03	67	122618	"Midbaer Vesturbaer"
-"512"	512	2.499	115	210198	"Gerdin Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Haaleiti"
-"513"	513	1.948	140	200154	"Mosfellsbaer"
-"514"	514	2.329	115	120861	"Hlidar Vesturbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"515"	515	2.431	90	181468	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"516"	516	3.342	80	179863	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Midbaer Gerdin Kopavogur"
-"517"	517	2.948	101	213036	"Breidholt Hlidar LaugarneshverfiVogar Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Kopavogur"
-"518"	518	3.416	140	170293	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"519"	519	3.342	76	152924	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur"
-"520"	520	2.767	91	173485	"Hafnarfjordur Gardabaer"
-"521"	521	2.229	186	150991	"Seltjarnarnes Vesturbaer Hlidar LaugarneshverfiVogar Fossvogur Midbaer Haaleiti Gerdin"
-"522"	522	2.502	103	145034	"Hlutlaus"
-"523"	523	3.141	97	133334	"Hlutlaus"
-"524"	524	3.501	185	223393	"Vesturbaer Hlidar Midbaer Seltjarnarnes"
-"525"	525	2.598	120	207755	"Seltjarnarnes Vesturbaer"
-"526"	526	2.878	65	173235	"Grafarvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"527"	527	2.512	140	147455	"Grafarvogur Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"528"	528	3.245	237	283542	"Midbaer"
-"529"	529	2.451	104	121469	"Arbaer Breidholt Grafarholt Fossvogur Grafarvogur Gerdin"
-"530"	530	2.656	86	203300	"Midbaer Vesturbaer Hlidar"
-"531"	531	2.875	109	165087	"Hlutlaus"
-"532"	532	3.131	196	233943	"Seltjarnarnes"
-"533"	533	3.776	82	165764	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"534"	534	3.124	88	128601	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"535"	535	3.844	100	157511	"Arbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"536"	536	2.282	138	151085	"Gardabaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"537"	537	2.775	86	151716	"Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"538"	538	2.764	90	167215	"Mosfellsbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Grafarvogur Gerdin"
-"539"	539	2.41	96	166723	"Hlidar Vesturbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"540"	540	2.059	90	191561	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur"
-"541"	541	2.757	146	122600	"Midbaer"
-"542"	542	1.878	86	111909	"Hlutlaus"
-"543"	543	2.641	198	157779	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur"
-"544"	544	3.851	109	132891	"Hafnarfjordur Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Kopavogur"
-"545"	545	2.92	74	154686	"Breidholt Vesturbaer Hlidar LaugarneshverfiVogar Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"546"	546	2.691	121	139280	"Hafnarfjordur"
-"547"	547	2.612	172	144116	"Mosfellsbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Kopavogur"
-"548"	548	3.364	81	189872	"Mosfellsbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Kopavogur"
-"549"	549	3.588	187	205953	"Arbaer Breidholt Gerdin"
-"550"	550	3.045	93	154200	"Grafarholt Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"551"	551	3.643	70	214165	"Midbaer"
-"552"	552	2.136	74	125559	"Grafarholt Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"553"	553	2.91	129	126733	"Mosfellsbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Kopavogur"
-"554"	554	3.278	78	170550	"Grafarholt Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"555"	555	2.168	70	141609	"Kopavogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Hafnarfjordur Mosfellsbaer"
-"556"	556	3.8	110	128384	"Hlutlaus"
-"557"	557	3.12	114	145298	"Midbaer"
-"558"	558	3.582	106	128993	"Arbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"559"	559	2.819	145	131934	"Gerdin Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"560"	560	2.929	59	168746	"Hlutlaus"
-"561"	561	3.241	41	209399	"Gardabaer"
-"562"	562	2.789	70	177017	"Grafarholt Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"563"	563	3.123	172	206922	"Fossvogur Hlidar LaugarneshverfiVogar Breidholt Arbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"564"	564	2.696	108	120353	"Breidholt Vesturbaer Hlidar LaugarneshverfiVogar Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"565"	565	2.721	198	164800	"Gardabaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Kopavogur Hafnarfjordur Mosfellsbaer"
-"566"	566	2.556	79	124168	"Grafarholt Breidholt Arbaer Grafarvogur Gerdin Mosfellsbaer"
-"567"	567	3.85	94	126409	"Grafarvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"568"	568	3.844	71	139404	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"569"	569	2.877	119	179235	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Kopavogur"
-"570"	570	3.6	148	187996	"Hafnarfjordur Gardabaer Kopavogur"
-"571"	571	3.565	122	144293	"Kopavogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Hafnarfjordur Mosfellsbaer"
-"572"	572	2.882	95	122043	"Hlutlaus"
-"573"	573	3.56	82	139405	"Breidholt Hlidar LaugarneshverfiVogar Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"574"	574	2.352	120	208029	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Fossvogur Haaleiti Gerdin Seltjarnarnes"
-"575"	575	2.572	67	125285	"Gardabaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Kopavogur Hafnarfjordur"
-"576"	576	3.416	93	123833	"Hlutlaus"
-"577"	577	2.491	75	129320	"Hafnarfjordur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"578"	578	2.891	57	94784	"Vesturbaer Hlidar Midbaer Haaleiti Seltjarnarnes"
-"579"	579	4.512	111	164824	"Hlutlaus"
-"580"	580	2.399	88	137768	"Hlidar Vesturbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"581"	581	2.547	114	121500	"Arbaer LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Haaleiti Gerdin"
-"582"	582	3.115	129	160269	"Hafnarfjordur Breidholt Gardabaer Kopavogur"
-"583"	583	3.75	72	207006	"Seltjarnarnes Vesturbaer Midbaer"
-"584"	584	3.452	179	224725	"LaugarneshverfiVogar Hlidar Fossvogur Gerdin"
-"585"	585	2.601	84	148314	"Hlutlaus"
-"586"	586	4.012	151	243842	"Hlutlaus"
-"587"	587	2.828	140	153806	"Breidholt Vesturbaer Hlidar LaugarneshverfiVogar Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"588"	588	1.576	135	121682	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Haaleiti Gerdin Seltjarnarnes Kopavogur"
-"589"	589	2.915	103	192271	"Hafnarfjordur Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Kopavogur"
-"590"	590	2.14	93	178797	"Grafarvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"591"	591	2.428	79	204608	"Arbaer"
-"592"	592	2.606	236	202212	"Grafarholt Grafarvogur"
-"593"	593	2.947	121	234707	"Grafarvogur Breidholt Grafarholt Arbaer Gerdin Mosfellsbaer"
-"594"	594	2.853	83	124929	"Hlutlaus"
-"595"	595	3.769	93	139570	"Hlutlaus"
-"596"	596	4.033	112	185337	"Grafarvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"597"	597	2.629	97	120745	"Gardabaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"598"	598	2.503	53	97794	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"599"	599	3.801	51	135948	"Hlutlaus"
-"600"	600	2.403	120	137097	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"601"	601	3.227	136	160846	"Breidholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Kopavogur"
-"602"	602	2.729	102	179613	"Mosfellsbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Kopavogur"
-"603"	603	3.294	64	160608	"Fossvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"604"	604	2.909	85	140998	"Seltjarnarnes Vesturbaer"
-"605"	605	3.395	86	121305	"Kopavogur"
-"606"	606	2.034	186	156129	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"607"	607	3.196	136	160880	"Grafarvogur Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"608"	608	2.7	70	122450	"Gerdin"
-"609"	609	2.16	51	168670	"Seltjarnarnes Vesturbaer Midbaer"
-"610"	610	2.538	102	187469	"Arbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"611"	611	2.745	100	168847	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"612"	612	3.248	80	127534	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"613"	613	3.399	71	151298	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"614"	614	2.411	107	195083	"Gerdin Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"615"	615	2.831	100	140617	"Gardabaer"
-"616"	616	2.972	74	123805	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"617"	617	3.144	131	153335	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"618"	618	4.109	306	490736	"Grafarvogur Grafarholt Arbaer"
-"619"	619	2.094	54	129182	"Grafarvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"620"	620	2.543	106	214157	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Fossvogur Haaleiti Gerdin Seltjarnarnes"
-"621"	621	3.538	93	154134	"Seltjarnarnes Vesturbaer Midbaer"
-"622"	622	2.679	71	144242	"Grafarvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"623"	623	2.676	251	201733	"Hafnarfjordur"
-"624"	624	3.038	72	199124	"Breidholt Hlidar LaugarneshverfiVogar Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"625"	625	3.55	81	190616	"Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"626"	626	1.969	111	227039	"Arbaer Breidholt Grafarholt Fossvogur Grafarvogur Gerdin"
-"627"	627	1.946	156	210150	"LaugarneshverfiVogar"
-"628"	628	2.646	68	129810	"Hlutlaus"
-"629"	629	3.712	91	120966	"Arbaer"
-"630"	630	3.796	100	124173	"Hlutlaus"
-"631"	631	2.548	129	135243	"Gardabaer Breidholt Fossvogur Kopavogur"
-"632"	632	3.219	82	120099	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"633"	633	2.549	50	157107	"Arbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"634"	634	3.877	56	184088	"Mosfellsbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Grafarvogur Gerdin"
-"635"	635	3.029	40	133353	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"636"	636	2.938	105	125278	"Grafarholt Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"637"	637	2.929	48	153651	"Hafnarfjordur LaugarneshverfiVogar Breidholt Fossvogur Haaleiti Gerdin Gardabaer Kopavogur"
-"638"	638	2.665	113	150287	"Seltjarnarnes Vesturbaer"
-"639"	639	3.751	147	182218	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Kopavogur"
-"640"	640	4.544	81	128208	"Hlutlaus"
-"641"	641	2.939	125	153527	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"642"	642	2.956	102	179256	"Hlidar Vesturbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"643"	643	2.775	151	121314	"Hafnarfjordur Breidholt Gardabaer Kopavogur"
-"644"	644	3.673	114	133371	"Hafnarfjordur Hlidar LaugarneshverfiVogar Breidholt Fossvogur Haaleiti Gerdin Gardabaer Kopavogur"
-"645"	645	2.941	78	186615	"Breidholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Kopavogur"
-"646"	646	2.41	125	171014	"Gardabaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Kopavogur Hafnarfjordur Mosfellsbaer"
-"647"	647	4.776	91	150619	"Mosfellsbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Kopavogur"
-"648"	648	3.222	109	131279	"Grafarvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"649"	649	3.485	53	128944	"Breidholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Kopavogur"
-"650"	650	2.899	102	166322	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"651"	651	2.315	96	177669	"Gardabaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Kopavogur Hafnarfjordur"
-"652"	652	2.384	68	171422	"Hlutlaus"
-"653"	653	2.684	66	145208	"Gardabaer LaugarneshverfiVogar Breidholt Arbaer Fossvogur Haaleiti Gerdin Kopavogur"
-"654"	654	2.153	100	188250	"Gardabaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Kopavogur Hafnarfjordur Mosfellsbaer"
-"655"	655	2.804	93	127567	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"656"	656	4.006	110	182024	"Gerdin Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gardabaer Kopavogur Mosfellsbaer"
-"657"	657	2.15	91	149787	"Kopavogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Hafnarfjordur Mosfellsbaer"
-"658"	658	3.029	250	311806	"Hafnarfjordur"
-"659"	659	2.643	161	124332	"Hlutlaus"
-"660"	660	3.023	97	122887	"Mosfellsbaer Grafarholt Grafarvogur"
-"661"	661	3.302	75	125915	"Gardabaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Kopavogur Hafnarfjordur"
-"662"	662	2.17	86	155120	"Arbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"663"	663	3.057	128	160179	"Mosfellsbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin"
-"664"	664	3.815	147	184680	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"665"	665	3.332	119	139905	"Hlidar"
-"666"	666	3.401	140	172027	"Fossvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"667"	667	2.309	73	111586	"Gerdin LaugarneshverfiVogar Fossvogur Haaleiti"
-"668"	668	2.951	75	214724	"Breidholt LaugarneshverfiVogar Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Kopavogur"
-"669"	669	3.306	74	212455	"Midbaer Vesturbaer Hlidar"
-"670"	670	2.316	86	185270	"Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Seltjarnarnes Kopavogur"
-"671"	671	3.046	104	127250	"Fossvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"672"	672	3.077	97	145361	"Vesturbaer Hlidar Midbaer Seltjarnarnes"
-"673"	673	2.772	103	137198	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"674"	674	2.401	117	126212	"Breidholt Vesturbaer Hlidar LaugarneshverfiVogar Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"675"	675	3.743	111	135028	"Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"676"	676	3.042	87	133051	"Gerdin Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"677"	677	3.131	101	122367	"Gerdin"
-"678"	678	2.372	78	160846	"Mosfellsbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin"
-"679"	679	2.971	70	127222	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"680"	680	2.217	106	131478	"Hlutlaus"
-"681"	681	2.637	134	143758	"Hafnarfjordur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"682"	682	2.169	104	137264	"Hlutlaus"
-"683"	683	4.246	120	182270	"Kopavogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Hafnarfjordur Mosfellsbaer"
-"684"	684	3.343	125	148111	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"685"	685	2.984	73	155028	"Kopavogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Hafnarfjordur Mosfellsbaer"
-"686"	686	2.607	106	199205	"Arbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"687"	687	2.272	183	141614	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"688"	688	3.089	93	140097	"Hlidar"
-"689"	689	2.667	136	140443	"Hlutlaus"
-"690"	690	3.016	125	144472	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"691"	691	3.379	32	141757	"Hlutlaus"
-"692"	692	2.686	100	129208	"Hlidar Vesturbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"693"	693	3.532	125	158911	"Grafarvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"694"	694	3.391	108	129094	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"695"	695	3.485	47	209524	"Breidholt Arbaer Fossvogur Gerdin Gardabaer Kopavogur"
-"696"	696	1.729	133	133072	"Grafarholt Arbaer Grafarvogur Mosfellsbaer"
-"697"	697	2.124	102	192393	"Hafnarfjordur Gardabaer"
-"698"	698	3.949	55	164993	"Gerdin Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gardabaer Kopavogur Mosfellsbaer"
-"699"	699	2.818	111	185123	"Arbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"700"	700	3.204	78	162954	"Seltjarnarnes Vesturbaer Hlidar Midbaer"
-"701"	701	3.174	100	129183	"Arbaer Breidholt Grafarholt Fossvogur Grafarvogur Gerdin"
-"702"	702	2.656	98	195533	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Seltjarnarnes Kopavogur"
-"703"	703	2.891	82	145695	"Hafnarfjordur Breidholt Gardabaer Kopavogur"
-"704"	704	3.239	92	129634	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Kopavogur"
-"705"	705	2.721	84	153234	"Breidholt Vesturbaer Hlidar LaugarneshverfiVogar Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"706"	706	2.931	83	149161	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Kopavogur"
-"707"	707	3.199	130	143859	"LaugarneshverfiVogar"
-"708"	708	3.46	102	124642	"Mosfellsbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur"
-"709"	709	3.118	82	138771	"Gardabaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"710"	710	4.166	150	245135	"LaugarneshverfiVogar"
-"711"	711	2.686	92	134279	"Seltjarnarnes Vesturbaer Hlidar LaugarneshverfiVogar Midbaer"
-"712"	712	3.229	74	128641	"Hlutlaus"
-"713"	713	3.137	138	172617	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"714"	714	2.423	77	149161	"Midbaer Vesturbaer Hlidar"
-"715"	715	1.949	102	124100	"Hlutlaus"
-"716"	716	2.301	165	133120	"Hlutlaus"
-"717"	717	3.076	54	146363	"Grafarholt Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"718"	718	2.801	109	121825	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Fossvogur Haaleiti Gerdin Seltjarnarnes Kopavogur"
-"719"	719	3.248	111	135221	"Hlutlaus"
-"720"	720	3.024	95	148882	"Seltjarnarnes Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"721"	721	2.398	114	131052	"Kopavogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Hafnarfjordur Mosfellsbaer"
-"722"	722	4.215	62	134568	"Hlutlaus"
-"723"	723	3.793	54	231988	"Midbaer Vesturbaer Hlidar"
-"724"	724	2.581	92	146787	"Hlidar Vesturbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"725"	725	2.496	213	167795	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"726"	726	3.689	93	141595	"Grafarvogur Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"727"	727	2.805	104	188025	"Hlutlaus"
-"728"	728	2.202	171	137662	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"729"	729	2.299	36	77862	"Gerdin Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gardabaer Kopavogur Mosfellsbaer"
-"730"	730	2.946	120	124178	"Hlutlaus"
-"731"	731	2.313	93	147441	"Hafnarfjordur"
-"732"	732	3.391	82	121735	"Hlutlaus"
-"733"	733	2.959	116	145516	"Fossvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"734"	734	2.684	83	128513	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Seltjarnarnes Kopavogur"
-"735"	735	3.682	58	188419	"Fossvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"736"	736	3.135	93	241249	"Breidholt"
-"737"	737	3.114	102	141813	"Hafnarfjordur Breidholt Gardabaer Kopavogur"
-"738"	738	2.398	133	223391	"Grafarvogur"
-"739"	739	1.737	172	127446	"Hlutlaus"
-"740"	740	2.943	93	159779	"Hlutlaus"
-"741"	741	2.691	128	148491	"Hlutlaus"
-"742"	742	2.127	75	141765	"Hlutlaus"
-"743"	743	2.614	116	201713	"Mosfellsbaer"
-"744"	744	2.95	97	134354	"Midbaer Vesturbaer Hlidar"
-"745"	745	3.063	102	129130	"Arbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"746"	746	2.636	93	131791	"Hlutlaus"
-"747"	747	2.826	96	167892	"Arbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"748"	748	2.923	84	152775	"Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"749"	749	3.375	136	162098	"Grafarholt Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"750"	750	2.583	151	123868	"Midbaer"
-"751"	751	2.835	77	156147	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"752"	752	4.198	101	165594	"Hlutlaus"
-"753"	753	3.964	102	126593	"Gardabaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Kopavogur Hafnarfjordur Mosfellsbaer"
-"754"	754	2.989	125	129860	"Kopavogur Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer"
-"755"	755	2.911	103	206990	"Breidholt Gardabaer Kopavogur"
-"756"	756	3.031	92	172758	"Gardabaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Kopavogur Hafnarfjordur Mosfellsbaer"
-"757"	757	3.769	50	170688	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"758"	758	2.46	215	183737	"Gardabaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Kopavogur Hafnarfjordur"
-"759"	759	3.075	104	129706	"Hlutlaus"
-"760"	760	2.513	100	135910	"Breidholt Vesturbaer Hlidar LaugarneshverfiVogar Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"761"	761	3.39	124	144715	"Gardabaer"
-"762"	762	2.842	72	203168	"Vesturbaer Hlidar Midbaer Haaleiti Seltjarnarnes"
-"763"	763	2.251	94	151944	"Breidholt Vesturbaer Hlidar LaugarneshverfiVogar Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"764"	764	2.848	103	132393	"Breidholt Arbaer Fossvogur Haaleiti Gerdin Gardabaer Kopavogur"
-"765"	765	2.094	59	138326	"Gardabaer"
-"766"	766	2.809	94	131067	"Hlidar Vesturbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"767"	767	3.07	139	160665	"Hafnarfjordur Gardabaer"
-"768"	768	2.72	106	120205	"Gerdin Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gardabaer Kopavogur"
-"769"	769	2.206	53	145881	"LaugarneshverfiVogar"
-"770"	770	3.727	165	192784	"Hlidar Vesturbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"771"	771	3.355	73	121082	"Seltjarnarnes Vesturbaer"
-"772"	772	2.926	112	146632	"Hafnarfjordur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"773"	773	2.036	220	184048	"Arbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"774"	774	2.22	112	204812	"Gerdin Fossvogur Haaleiti"
-"775"	775	3.484	116	147467	"LaugarneshverfiVogar Hlidar Breidholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"776"	776	3.225	57	171398	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur"
-"777"	777	3.088	92	130681	"LaugarneshverfiVogar Hlidar Breidholt Arbaer Fossvogur Haaleiti Gerdin Gardabaer Kopavogur"
-"778"	778	3.002	106	126844	"Hlutlaus"
-"779"	779	2.632	53	128269	"Grafarvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"780"	780	3.193	105	130517	"Gerdin Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gardabaer Kopavogur Mosfellsbaer"
-"781"	781	3.147	135	159360	"Breidholt Hlidar LaugarneshverfiVogar Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"782"	782	2.754	83	141713	"Hlutlaus"
-"783"	783	2.327	120	132819	"Hlutlaus"
-"784"	784	1.7	107	166564	"Grafarholt Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"785"	785	3.464	157	185643	"Hafnarfjordur Breidholt Gardabaer Kopavogur"
-"786"	786	4.45	100	157167	"Hlidar Vesturbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"787"	787	3.478	69	123018	"Arbaer Breidholt Grafarholt Grafarvogur Gerdin"
-"788"	788	2.804	59	200654	"Gardabaer Breidholt Kopavogur"
-"789"	789	3.521	87	132188	"Hlutlaus"
-"790"	790	3.224	88	131562	"Hlutlaus"
-"791"	791	2.765	148	156452	"Grafarvogur LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Haaleiti Gerdin Gardabaer Mosfellsbaer"
-"792"	792	3.605	108	129595	"Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Seltjarnarnes Kopavogur"
-"793"	793	3.14	127	154734	"Grafarholt Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"794"	794	3.352	74	213968	"Kopavogur Breidholt Gardabaer"
-"795"	795	3.159	64	227355	"Hafnarfjordur"
-"796"	796	4.392	88	139052	"Gerdin Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"797"	797	2.99	138	125782	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"798"	798	2.655	66	121443	"Gardabaer"
-"799"	799	3.797	97	153121	"Gardabaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Kopavogur Hafnarfjordur"
-"800"	800	2.175	84	122576	"Hlutlaus"
-"801"	801	2.322	113	168848	"Kopavogur Hlidar LaugarneshverfiVogar Breidholt Fossvogur Haaleiti Gerdin Gardabaer"
-"802"	802	2.943	78	137830	"Hlidar Vesturbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"803"	803	3.037	122	155508	"Kopavogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Hafnarfjordur Mosfellsbaer"
-"804"	804	2.929	86	151185	"Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"805"	805	2.229	189	152963	"Mosfellsbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Kopavogur"
-"806"	806	2.871	123	129102	"Kopavogur"
-"807"	807	4.001	43	132144	"Gardabaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"808"	808	3.029	243	275500	"Fossvogur"
-"809"	809	2.807	86	126378	"Hafnarfjordur Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Kopavogur"
-"810"	810	2.495	252	203920	"Grafarholt Arbaer Grafarvogur Gerdin Mosfellsbaer"
-"811"	811	2.522	62	124417	"Grafarvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"812"	812	2.85	86	137579	"Hlutlaus"
-"813"	813	3.643	82	120483	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Seltjarnarnes Kopavogur"
-"814"	814	3.159	101	125902	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"815"	815	2.744	186	161433	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur"
-"816"	816	2.182	83	148453	"Gerdin Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Haaleiti"
-"817"	817	3.276	95	122358	"Gerdin Fossvogur"
-"818"	818	2.861	136	129514	"Hlutlaus"
-"819"	819	3.433	87	173031	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"820"	820	4.083	93	154260	"Hlutlaus"
-"821"	821	1.633	66	106247	"Midbaer Vesturbaer"
-"822"	822	1.629	117	162071	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Fossvogur Haaleiti Gerdin Seltjarnarnes Kopavogur"
-"823"	823	3.807	83	133535	"Grafarvogur Grafarholt Arbaer"
-"824"	824	2.717	185	146441	"Hafnarfjordur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"825"	825	2.856	47	208177	"Fossvogur Hlidar LaugarneshverfiVogar Breidholt Arbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"826"	826	2.552	170	136210	"Arbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"827"	827	3.18	124	139953	"Grafarholt Hlidar LaugarneshverfiVogar Breidholt Arbaer Grafarvogur Haaleiti Gerdin Kopavogur Mosfellsbaer"
-"828"	828	3.395	77	139006	"Breidholt Vesturbaer Hlidar LaugarneshverfiVogar Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"829"	829	3.348	74	191455	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Midbaer Gerdin Kopavogur"
-"830"	830	2.766	80	172345	"Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"831"	831	3.777	122	144674	"Hlutlaus"
-"832"	832	2.094	50	87530	"Grafarholt Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"833"	833	2.609	102	201611	"Hlutlaus"
-"834"	834	2.865	222	175530	"Grafarholt Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"835"	835	3.417	149	180190	"Mosfellsbaer Grafarholt Arbaer Grafarvogur"
-"836"	836	3.91	122	147331	"LaugarneshverfiVogar Hlidar Fossvogur Haaleiti Gerdin"
-"837"	837	2.918	72	159817	"Breidholt Vesturbaer Hlidar LaugarneshverfiVogar Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"838"	838	3.304	114	128201	"Hafnarfjordur"
-"839"	839	3.591	149	181270	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur"
-"840"	840	2.952	192	142044	"Grafarvogur"
-"841"	841	3.353	227	266736	"Gerdin Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gardabaer Kopavogur"
-"842"	842	3.295	54	147158	"Grafarvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"843"	843	2.391	84	132664	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"844"	844	2.02	149	120781	"Hlutlaus"
-"845"	845	2.228	102	188909	"Breidholt Vesturbaer Hlidar LaugarneshverfiVogar Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"846"	846	2.38	84	179070	"Hlutlaus"
-"847"	847	1.905	74	106751	"Hafnarfjordur Breidholt Gardabaer Kopavogur"
-"848"	848	2.865	102	175781	"Kopavogur Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer"
-"849"	849	3.379	96	152072	"Hlidar Vesturbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"850"	850	4.206	51	132172	"Hlutlaus"
-"851"	851	2.157	120	122517	"Hlutlaus"
-"852"	852	2.491	152	123540	"Hlidar Vesturbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"853"	853	3.602	265	316053	"Mosfellsbaer Grafarholt Grafarvogur"
-"854"	854	3.946	166	206310	"Gardabaer Breidholt Kopavogur"
-"855"	855	2.288	65	127021	"Arbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"856"	856	3.521	46	129630	"Hlutlaus"
-"857"	857	2.158	117	194112	"Grafarvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"858"	858	3.388	102	129086	"Gardabaer Breidholt Kopavogur"
-"859"	859	2.522	81	148076	"Hlutlaus"
-"860"	860	1.842	86	165909	"Hlidar Vesturbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"861"	861	3.284	180	231333	"Arbaer Breidholt Grafarholt Grafarvogur Gerdin"
-"862"	862	2.548	86	125388	"Grafarholt Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"863"	863	2.322	61	191678	"Mosfellsbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin"
-"864"	864	2.538	130	130092	"Hlutlaus"
-"865"	865	3.214	81	191362	"Hlidar Vesturbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"866"	866	3.631	75	123972	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"867"	867	3.872	125	146965	"Vesturbaer Hlidar Midbaer Seltjarnarnes"
-"868"	868	2.741	94	168014	"Fossvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"869"	869	3.319	62	150443	"Grafarvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"870"	870	3.021	78	158879	"Arbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"871"	871	3.249	76	194849	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"872"	872	2.882	53	180046	"Grafarvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"873"	873	3.163	114	135264	"Gardabaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"874"	874	3.143	78	185829	"Gardabaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"875"	875	3.491	82	134655	"Hlutlaus"
-"876"	876	1.968	90	189405	"Hafnarfjordur Gardabaer"
-"877"	877	3.414	130	151456	"Grafarholt Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"878"	878	3.927	156	193358	"Mosfellsbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Kopavogur"
-"879"	879	2.154	117	141122	"Grafarvogur Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"880"	880	3.778	95	125234	"Mosfellsbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"881"	881	2.35	61	120720	"Kopavogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Hafnarfjordur Mosfellsbaer"
-"882"	882	2.592	263	205049	"Fossvogur Hlidar LaugarneshverfiVogar Breidholt Arbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"883"	883	1.712	154	125155	"Mosfellsbaer Grafarholt Arbaer Grafarvogur"
-"884"	884	2.627	68	156540	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"885"	885	2.898	239	200095	"Kopavogur Breidholt Gardabaer"
-"886"	886	3.981	82	218255	"Midbaer Vesturbaer Hlidar LaugarneshverfiVogar Fossvogur Haaleiti Gerdin Seltjarnarnes"
-"887"	887	2.999	108	204244	"Seltjarnarnes Vesturbaer"
-"888"	888	2.448	77	130542	"Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur"
-"889"	889	1.374	83	156036	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"890"	890	3.009	56	143999	"Gerdin Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gardabaer Kopavogur"
-"891"	891	2.529	107	150001	"Hlidar Vesturbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"892"	892	2.253	141	154448	"Arbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"893"	893	3.398	96	136163	"Mosfellsbaer"
-"894"	894	2.661	101	210905	"Midbaer Vesturbaer Hlidar"
-"895"	895	2.229	109	130556	"Hlutlaus"
-"896"	896	3.528	158	188133	"Fossvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"897"	897	2.791	88	127879	"Fossvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"898"	898	3.98	119	147356	"Fossvogur Haaleiti Gerdin"
-"899"	899	3.359	101	120520	"Hlutlaus"
-"900"	900	3.267	147	174965	"Breidholt Hlidar LaugarneshverfiVogar Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Kopavogur"
-"901"	901	3.256	94	155335	"Mosfellsbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Kopavogur"
-"902"	902	4.031	55	121747	"Gardabaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Kopavogur Hafnarfjordur Mosfellsbaer"
-"903"	903	2.419	179	154076	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"904"	904	3.378	153	186168	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"905"	905	3.262	61	156780	"Breidholt Hlidar LaugarneshverfiVogar Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"906"	906	3.285	39	175560	"Breidholt Hlidar LaugarneshverfiVogar Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"907"	907	3.156	81	153046	"Hlidar Vesturbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"908"	908	2.862	65	145335	"Hafnarfjordur"
-"909"	909	3.516	158	178191	"Kopavogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Hafnarfjordur"
-"910"	910	2.809	110	135420	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"911"	911	2.353	97	158530	"Kopavogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Hafnarfjordur Mosfellsbaer"
-"912"	912	3.219	102	122609	"Grafarholt Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"913"	913	2.314	117	126222	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"914"	914	2.82	165	128297	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"915"	915	2.617	65	192404	"Hlidar Vesturbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"916"	916	3.22	106	130063	"Seltjarnarnes Vesturbaer Hlidar LaugarneshverfiVogar Midbaer"
-"917"	917	2.01	77	156514	"Grafarholt Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"918"	918	3.18	272	333373	"Gardabaer"
-"919"	919	3.003	101	122545	"Mosfellsbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"920"	920	2.602	117	125245	"Kopavogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Hafnarfjordur Mosfellsbaer"
-"921"	921	2.872	52	82767	"Gerdin Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"922"	922	2.826	93	121192	"Hlutlaus"
-"923"	923	3.734	181	228596	"Seltjarnarnes Vesturbaer Midbaer"
-"924"	924	2.365	73	196506	"Grafarvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"925"	925	2.99	106	237779	"Breidholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Kopavogur"
-"926"	926	3.011	205	242834	"Grafarvogur Breidholt Grafarholt Arbaer Fossvogur Haaleiti Gerdin Mosfellsbaer"
-"927"	927	2.765	234	199985	"Seltjarnarnes Vesturbaer Midbaer"
-"928"	928	3.298	76	142755	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"929"	929	3.772	88	141999	"Hlutlaus"
-"930"	930	3.239	66	133794	"Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Seltjarnarnes Kopavogur"
-"931"	931	2.738	84	140473	"Hlutlaus"
-"932"	932	2.59	90	164197	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"933"	933	2.515	64	143778	"Arbaer Breidholt Gerdin"
-"934"	934	2.566	64	225538	"Hlidar Vesturbaer LaugarneshverfiVogar Breidholt Fossvogur Midbaer Haaleiti Gerdin Kopavogur"
-"935"	935	2.946	142	141329	"Hlutlaus"
-"936"	936	2.851	45	134196	"Hlutlaus"
-"937"	937	2.023	156	129550	"Arbaer Breidholt Grafarholt Grafarvogur Gerdin"
-"938"	938	2.851	155	123140	"Breidholt Vesturbaer Hlidar LaugarneshverfiVogar Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"939"	939	3.055	87	139080	"Hlidar"
-"940"	940	2.805	79	154639	"Seltjarnarnes Vesturbaer Hlidar Midbaer"
-"941"	941	2.595	119	127611	"Kopavogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Hafnarfjordur Mosfellsbaer"
-"942"	942	3.268	214	250608	"Arbaer LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Haaleiti Gerdin"
-"943"	943	3.329	119	143619	"Grafarvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"944"	944	2.76	100	153572	"Hlutlaus"
-"945"	945	3.171	76	188656	"Hafnarfjordur Breidholt Gardabaer Kopavogur"
-"946"	946	3.147	113	128334	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"947"	947	4.179	89	143822	"Hlutlaus"
-"948"	948	2.937	302	233276	"Breidholt Arbaer Fossvogur Gerdin Gardabaer Kopavogur"
-"949"	949	3.442	73	149301	"LaugarneshverfiVogar Hlidar Fossvogur Gerdin"
-"950"	950	3.848	74	161927	"Hafnarfjordur Gardabaer"
-"951"	951	2.818	184	150280	"Kopavogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Hafnarfjordur"
-"952"	952	2.702	85	220557	"Vesturbaer Midbaer Seltjarnarnes"
-"953"	953	2.567	50	120090	"Arbaer LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"954"	954	2.942	149	137635	"Grafarholt Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"955"	955	2.557	302	256760	"LaugarneshverfiVogar Hlidar Fossvogur Haaleiti Gerdin"
-"956"	956	2.905	113	141512	"Grafarholt Arbaer Grafarvogur Gerdin Mosfellsbaer"
-"957"	957	2.9	78	174981	"Mosfellsbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Haaleiti Gerdin"
-"958"	958	2.854	81	147081	"Hafnarfjordur"
-"959"	959	2.669	92	142766	"Arbaer Breidholt Grafarholt Fossvogur Grafarvogur Gerdin"
-"960"	960	3.487	133	157261	"Hlutlaus"
-"961"	961	4.027	185	286382	"Midbaer"
-"962"	962	3.753	68	209622	"Haaleiti Fossvogur Gerdin"
-"963"	963	3.067	167	189878	"Grafarvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"964"	964	2.804	86	124836	"Breidholt"
-"965"	965	3.127	78	181826	"Grafarvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"966"	966	2.944	93	129123	"Gerdin Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"967"	967	2.679	90	163473	"Hlidar Vesturbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"968"	968	2.744	78	167747	"Hlidar Vesturbaer LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"969"	969	2.892	284	226907	"Arbaer"
-"970"	970	2.389	71	159062	"Grafarholt Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"971"	971	3.138	84	138166	"Hlutlaus"
-"972"	972	2.589	74	136880	"Hlutlaus"
-"973"	973	2.083	66	155582	"Breidholt LaugarneshverfiVogar Arbaer Fossvogur Grafarvogur Haaleiti Gerdin Gardabaer Kopavogur"
-"974"	974	3.067	160	197303	"Seltjarnarnes Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"975"	975	2.249	102	143795	"Gerdin Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gardabaer Kopavogur Mosfellsbaer"
-"976"	976	2.811	96	150465	"Grafarvogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"977"	977	2.823	128	133003	"Arbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"978"	978	3.405	80	141428	"Gardabaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Kopavogur Hafnarfjordur"
-"979"	979	2.626	142	211681	"Gardabaer LaugarneshverfiVogar Breidholt Arbaer Fossvogur Haaleiti Gerdin Kopavogur"
-"980"	980	3.667	116	135423	"Gerdin Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gardabaer Kopavogur"
-"981"	981	3.645	68	135765	"Gardabaer"
-"982"	982	3.3	150	186714	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"983"	983	2.797	146	124973	"Vesturbaer"
-"984"	984	2.841	89	134954	"Gardabaer LaugarneshverfiVogar Breidholt Arbaer Fossvogur Haaleiti Gerdin Kopavogur"
-"985"	985	3.213	174	203223	"LaugarneshverfiVogar Gerdin"
-"986"	986	3.242	48	157337	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Seltjarnarnes Kopavogur Mosfellsbaer"
-"987"	987	3.087	107	125713	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur"
-"988"	988	3.359	91	144920	"Arbaer LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Haaleiti Gerdin"
-"989"	989	2.742	144	122464	"Arbaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"990"	990	3.455	109	134663	"Breidholt Vesturbaer Hlidar LaugarneshverfiVogar Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Hafnarfjordur Mosfellsbaer"
-"991"	991	2.973	76	162497	"Gerdin Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gardabaer Kopavogur Mosfellsbaer"
-"992"	992	3.143	126	149970	"Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Kopavogur"
-"993"	993	3.393	60	159465	"Gardabaer Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Kopavogur Hafnarfjordur Mosfellsbaer"
-"994"	994	2.227	71	125838	"Grafarholt Arbaer Grafarvogur Mosfellsbaer"
-"995"	995	1.913	83	80079	"Haaleiti Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Gerdin Gardabaer Seltjarnarnes Kopavogur Hafnarfjordur Mosfellsbaer"
-"996"	996	3.952	104	124770	"Kopavogur Vesturbaer Hlidar LaugarneshverfiVogar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Seltjarnarnes Hafnarfjordur Mosfellsbaer"
-"997"	997	3.904	82	214339	"Seltjarnarnes Vesturbaer"
-"998"	998	3.575	75	128628	"LaugarneshverfiVogar Vesturbaer Hlidar Breidholt Grafarholt Arbaer Fossvogur Grafarvogur Midbaer Haaleiti Gerdin Gardabaer Kopavogur Mosfellsbaer"
-"999"	999	3.606	98	131932	"Hlutlaus"
-"1000"	1000	2.934	130	122540	"Hlutlaus"
+            "nrkunna"	"gaedi"	"staerd"	"greidslugeta"
+            1	1.812	148	184144
+            2	2.406	45	162435
+            3	1.89	118	138315
+            4	2.084	77	166634
+            5	3.14	114	138615
+            6	3.081	179	218229
+            7	2.885	50	84238
+            8	2.777	164	132856
+            9	2.096	270	233079
+            10	2.45	70	182500
+            11	3.349	104	129237
+            12	4.045	77	124588
+            13	2.092	155	123723
+            14	1.804	125	132081
+            15	2.113	98	139180
+            16	4.253	68	209079
+            17	2.964	85	168063
+            18	2.618	87	226172
+            19	2.513	164	125965
+            20	3.329	88	235399
+            21	3.286	132	169909
+            22	3.164	121	144861
+            23	3.288	117	134850
+            24	2.784	45	148537
+            25	2.823	73	122953
+            26	2.833	110	167402
+            27	3.348	63	203593
+            28	2.822	75	136711
+            29	1.976	86	115412
+            30	2.331	122	168578
+            31	3.04	85	180546
+            32	2.918	105	131264
+            33	3.465	77	162100
+            34	3.38	105	128356
+            35	2.008	84	170580
+            36	2.076	195	158653
+            37	4.126	158	266391
+            38	3.45	80	209048
+            39	3.591	122	138027
+            40	3.545	172	198806
+            41	3.676	79	213301
+            42	3.205	86	186202
+            43	3.423	55	197663
+            44	3.221	74	185039
+            45	2.702	92	138595
+            46	3.147	91	121026
+            47	3.093	97	121824
+            48	2.924	92	157182
+            49	2.71	162	135497
+            50	2.548	100	201377
+            51	2.997	128	132608
+            52	4.092	67	207669
+            53	2.118	70	234328
+            54	2.923	42	113422
+            55	3.309	68	193371
+            56	2.354	81	162991
+            57	2.693	107	123636
+            58	1.717	91	150805
+            59	2.064	104	155040
+            60	1.818	74	183662
+            61	1.926	74	77443
+            62	3.628	119	144789
+            63	3.238	72	168345
+            64	2.922	80	109748
+            65	3.119	170	213386
+            66	3.349	105	130278
+            67	3.145	55	147731
+            68	3.488	77	134279
+            69	2.787	74	194931
+            70	3.695	155	188055
+            71	2.198	120	134285
+            72	1.809	94	197063
+            73	3.329	145	165632
+            74	2.381	71	156762
+            75	2.56	77	196716
+            76	2.948	85	162159
+            77	2.54	68	130963
+            78	3.177	92	143539
+            79	2.013	81	142704
+            80	2.054	159	132296
+            81	2.224	176	138501
+            82	4.188	98	154566
+            83	3.805	99	136427
+            84	3.899	45	134713
+            85	4.191	87	142742
+            86	4.066	97	152813
+            87	3.741	62	147524
+            88	3.618	118	147678
+            89	1.92	79	129860
+            90	2.536	168	133483
+            91	3.081	76	186994
+            92	3.477	55	166660
+            93	2.506	87	140893
+            94	2.735	81	153259
+            95	2.471	70	132891
+            96	2.781	116	121369
+            97	3.028	80	184659
+            98	2.38	74	166532
+            99	2.747	236	181578
+            100	3.128	185	220768
+            101	2.891	167	135101
+            102	2.51	115	127751
+            103	3.077	59	153200
+            104	2.333	102	174652
+            105	2.582	109	181197
+            106	2.705	107	162748
+            107	3.777	117	143391
+            108	3.214	107	125803
+            109	2.68	124	125114
+            110	4.295	70	149382
+            111	2.61	67	201466
+            112	2.242	150	121689
+            113	1.934	56	116788
+            114	3.109	81	126178
+            115	3.217	83	176960
+            116	3.608	102	122656
+            117	2.111	117	171632
+            118	3.228	66	141256
+            119	2.878	69	214518
+            120	1.906	92	181249
+            121	3.516	127	153749
+            122	3.065	81	122048
+            123	1.993	131	154034
+            124	1.803	142	193380
+            125	1.962	75	91118
+            126	3.032	102	152782
+            127	2.859	48	79222
+            128	2.814	78	163155
+            129	3.945	93	200601
+            130	3.998	146	174181
+            131	2.127	82	130895
+            132	2.826	63	104053
+            133	2.982	74	193170
+            134	2.866	109	142702
+            135	3.484	140	162182
+            136	2.505	86	131941
+            137	3.683	127	143705
+            138	2.465	109	184630
+            139	3.05	195	230569
+            140	2.919	240	196086
+            141	3.432	97	121954
+            142	2.932	153	127788
+            143	3.212	131	152661
+            144	2.712	84	153824
+            145	1.828	124	121680
+            146	2.002	162	136115
+            147	2.458	104	190385
+            148	3.038	127	162591
+            149	2.528	92	129834
+            150	2.882	53	127160
+            151	4.764	153	249325
+            152	2.644	228	168456
+            153	2.677	84	120177
+            154	4.264	80	126611
+            155	3.002	78	197398
+            156	2.188	88	142020
+            157	2.722	64	133828
+            158	3.906	110	131311
+            159	3.587	122	148682
+            160	2.725	68	221925
+            161	3.322	81	135339
+            162	2.739	55	161320
+            163	2.421	74	160563
+            164	2.936	178	138900
+            165	2.813	100	135252
+            166	2.347	48	91122
+            167	2.86	77	142372
+            168	2.622	177	140582
+            169	2.771	119	196304
+            170	3.029	92	120555
+            171	2.04	140	144246
+            172	2.105	185	148720
+            173	2.986	262	193361
+            174	2.654	85	153420
+            175	3.573	70	161462
+            176	2.809	114	120918
+            177	2.714	220	177891
+            178	2.956	94	151886
+            179	2.739	116	155404
+            180	3.993	106	127469
+            181	2.708	83	171303
+            182	3.363	89	137042
+            183	2.204	57	146657
+            184	2.022	67	126274
+            185	2.96	125	166443
+            186	2.029	103	187668
+            187	2.051	123	128232
+            188	2.943	53	157662
+            189	2.513	133	133888
+            190	2.676	110	170876
+            191	2.745	144	133577
+            192	2.565	110	150243
+            193	2.654	100	162811
+            194	2.301	88	126704
+            195	3.552	56	170149
+            196	1.899	98	185262
+            197	2.586	83	151131
+            198	2.632	91	228404
+            199	3.345	63	198592
+            200	2.325	112	138925
+            201	2.311	69	132644
+            202	3.212	70	134432
+            203	3.16	105	123546
+            204	3.275	67	151571
+            205	3.926	37	212384
+            206	3.312	96	145466
+            207	2.281	101	126384
+            208	2.925	86	120450
+            209	3.041	188	220764
+            210	2.671	51	128129
+            211	2.243	130	137123
+            212	2.772	123	143367
+            213	2.39	211	178140
+            214	3.987	104	130029
+            215	2.903	185	155520
+            216	2.568	64	120739
+            217	2.831	157	132530
+            218	3.324	109	128987
+            219	2.665	124	131065
+            220	3.402	90	123156
+            221	2.299	145	122107
+            222	2.417	123	134002
+            223	2.612	102	151897
+            224	3.474	109	135677
+            225	2.469	83	151417
+            226	2.481	75	147586
+            227	2.963	80	156046
+            228	2.655	90	160883
+            229	3.548	76	183013
+            230	3.664	114	136813
+            231	2.887	116	222352
+            232	3.388	89	144810
+            233	2.232	108	201839
+            234	3.128	61	171250
+            235	3.954	94	136011
+            236	3.356	92	141576
+            237	2.636	124	137465
+            238	3.162	74	189696
+            239	2.431	94	146736
+            240	2.396	158	121047
+            241	2.402	73	135685
+            242	2.77	97	123096
+            243	2.119	92	129640
+            244	1.931	62	76580
+            245	3.275	104	163415
+            246	2.721	117	158464
+            247	3.039	166	198199
+            248	3.274	61	233568
+            249	2.836	110	179610
+            250	2.615	83	178311
+            251	3.087	102	160020
+            252	3.574	76	145381
+            253	3.526	59	137617
+            254	3.457	136	168879
+            255	3.152	65	140528
+            256	2.88	129	127661
+            257	2.1	130	141080
+            258	2.45	96	168052
+            259	2.666	220	175269
+            260	2.809	57	186053
+            261	3.533	54	133326
+            262	2.065	142	144018
+            263	4.006	179	281353
+            264	3.499	113	131642
+            265	2.341	52	141538
+            266	3.27	130	154963
+            267	3.334	250	305923
+            268	3.019	88	126189
+            269	2.535	131	122694
+            270	2.503	174	143946
+            271	2.778	68	139526
+            272	2.549	62	138277
+            273	2.741	179	140491
+            274	2.332	102	125779
+            275	3.018	155	185441
+            276	2.75	83	180423
+            277	3.921	106	122729
+            278	4.226	84	136568
+            279	2.948	121	122835
+            280	3.045	60	146279
+            281	3.077	68	143186
+            282	2.902	78	149953
+            283	1.836	64	114167
+            284	2.662	161	127583
+            285	3.588	130	158527
+            286	3.187	77	144749
+            287	2.672	89	134775
+            288	1.956	127	145145
+            289	2.117	142	136340
+            290	3.55	192	234068
+            291	3.277	96	142203
+            292	3.046	100	153730
+            293	3.171	95	159834
+            294	3	68	185762
+            295	3.031	121	139389
+            296	2.756	126	155836
+            297	2.651	79	121018
+            298	3.993	80	178395
+            299	3.885	74	231727
+            300	4.182	58	153370
+            301	4.284	243	376311
+            302	3.117	189	234419
+            303	3.058	75	204857
+            304	3.08	87	150887
+            305	4.098	93	147591
+            306	3.046	206	248239
+            307	2.014	106	158768
+            308	2.548	216	173717
+            309	3.466	54	123674
+            310	2.117	106	141499
+            311	2.369	63	146578
+            312	3.344	73	138336
+            313	4.327	139	218659
+            314	2.562	186	139350
+            315	2.374	90	126015
+            316	3.996	86	199849
+            317	3.298	104	127150
+            318	4.631	120	191157
+            319	3.026	94	226117
+            320	2.724	72	240345
+            321	2.766	69	202121
+            322	2.606	80	169416
+            323	3.158	162	199375
+            324	3.014	90	135833
+            325	2.76	134	224243
+            326	3.228	101	122622
+            327	2.219	119	221099
+            328	2.253	67	130452
+            329	2.92	194	158734
+            330	3.143	94	122069
+            331	3.062	83	122003
+            332	2.615	86	182046
+            333	3.025	101	155123
+            334	3.115	152	175365
+            335	2.7	103	221736
+            336	3.864	136	167209
+            337	3.182	97	121483
+            338	2.935	75	131281
+            339	2.769	170	142333
+            340	3.677	65	122519
+            341	2.434	92	181147
+            342	2.998	103	128576
+            343	2.225	123	168998
+            344	3.572	185	219281
+            345	3.136	86	136282
+            346	3.45	155	181272
+            347	3.809	61	135585
+            348	4.083	101	160162
+            349	3.512	65	149977
+            350	2.568	93	185480
+            351	3.379	225	272194
+            352	2.923	87	171665
+            353	3.606	216	249345
+            354	3.672	53	159812
+            355	3.001	154	187954
+            356	3.26	96	154296
+            357	2.448	123	132040
+            358	3.145	74	151204
+            359	3.168	180	210036
+            360	2.745	212	159513
+            361	3.723	74	206843
+            362	3.178	99	127636
+            363	3.601	164	197306
+            364	1.764	70	51932
+            365	2.571	81	174425
+            366	3.362	106	127196
+            367	3.046	77	129630
+            368	2.844	101	165867
+            369	2.496	95	176756
+            370	2.803	146	156193
+            371	2.9	86	123942
+            372	3.375	130	143116
+            373	3.649	104	130773
+            374	2.61	162	122319
+            375	3.109	75	189912
+            376	3.833	114	130541
+            377	2.698	63	142957
+            378	2.897	77	150517
+            379	2.061	72	147221
+            380	3.051	120	140652
+            381	2.545	36	85692
+            382	3.333	85	138065
+            383	2.602	96	153385
+            384	2.104	110	174163
+            385	2.448	57	145445
+            386	3.039	73	134260
+            387	1.863	82	78629
+            388	2.819	92	120773
+            389	3.701	97	121195
+            390	3.333	136	150995
+            391	2.747	122	123169
+            392	3.574	109	132112
+            393	3.76	65	215511
+            394	2.333	82	173709
+            395	3.028	78	132765
+            396	3.81	113	136828
+            397	2.54	80	170225
+            398	3.61	51	109824
+            399	3.056	101	121713
+            400	3.403	110	132531
+            401	2.801	59	132932
+            402	3.444	52	199232
+            403	4.177	102	159204
+            404	2.811	69	146351
+            405	2.085	109	125381
+            406	3.041	111	137060
+            407	1.888	166	124361
+            408	2.533	87	125273
+            409	3.79	119	144590
+            410	3.839	69	188446
+            411	2.476	59	158916
+            412	3.594	173	210938
+            413	3.01	84	192979
+            414	2.66	111	163871
+            415	2.242	98	120316
+            416	3.299	137	162137
+            417	2.625	142	150549
+            418	2.318	111	170722
+            419	3.737	96	139207
+            420	3.087	61	140085
+            421	3.308	143	176721
+            422	2.623	216	182229
+            423	2.384	58	177886
+            424	2.508	93	139623
+            425	3.298	122	140490
+            426	3.034	58	155310
+            427	3.178	144	163130
+            428	3.061	115	140647
+            429	2.503	181	144920
+            430	2.003	129	126225
+            431	3.249	72	172267
+            432	2.979	91	141333
+            433	2.741	152	142682
+            434	3.404	262	315853
+            435	3.131	88	219968
+            436	2.335	78	152942
+            437	2.563	145	122830
+            438	2.595	246	214488
+            439	2.537	256	212646
+            440	3.667	160	201180
+            441	2.875	97	165923
+            442	2.638	101	181661
+            443	2.714	108	166203
+            444	3.537	121	136052
+            445	3.853	77	241467
+            446	2.09	54	139038
+            447	3.995	63	161275
+            448	3.647	152	180755
+            449	1.764	87	125771
+            450	2.532	104	122034
+            451	3.091	87	140509
+            452	3.502	82	122317
+            453	2.517	120	183529
+            454	2.733	265	225086
+            455	2.07	56	204086
+            456	3.802	89	124886
+            457	3.507	90	130667
+            458	1.78	122	120202
+            459	2.674	308	240860
+            460	1.736	62	102858
+            461	3.644	276	329575
+            462	2.944	147	134733
+            463	1.855	123	92649
+            464	4.175	95	152363
+            465	3.138	179	216415
+            466	3.203	79	137764
+            467	1.805	48	99162
+            468	2.347	70	129339
+            469	2.518	134	140781
+            470	3.206	97	140868
+            471	3.293	159	194069
+            472	3.688	93	124287
+            473	3.908	214	256791
+            474	2.804	78	172223
+            475	3.036	82	246521
+            476	2.723	144	120633
+            477	3.311	169	200862
+            478	2.509	71	193534
+            479	4.531	85	135395
+            480	1.946	83	126521
+            481	2.555	134	122040
+            482	3.948	77	176817
+            483	3.657	69	154177
+            484	2.866	73	148361
+            485	3.914	84	208942
+            486	2.047	97	122946
+            487	2.996	93	233179
+            488	3.835	74	123078
+            489	3.691	100	122632
+            490	3.516	136	158528
+            491	2.923	136	166624
+            492	1.962	68	125643
+            493	3.442	79	142778
+            494	3.346	73	124517
+            495	2.483	91	182807
+            496	3.636	55	125015
+            497	3.653	125	148615
+            498	3.246	51	119257
+            499	2.677	58	122166
+            500	3.157	115	141352
+            501	3.642	196	236105
+            502	2.686	58	200509
+            503	3.286	153	174795
+            504	2.207	96	138800
+            505	3.485	78	136565
+            506	2.821	72	150718
+            507	2.862	104	196693
+            508	2.501	183	138319
+            509	2.981	116	236303
+            510	4.195	170	271469
+            511	3.03	67	122618
+            512	2.499	115	210198
+            513	1.948	140	200154
+            514	2.329	115	120861
+            515	2.431	90	181468
+            516	3.342	80	179863
+            517	2.948	101	213036
+            518	3.416	140	170293
+            519	3.342	76	152924
+            520	2.767	91	173485
+            521	2.229	186	150991
+            522	2.502	103	145034
+            523	3.141	97	133334
+            524	3.501	185	223393
+            525	2.598	120	207755
+            526	2.878	65	173235
+            527	2.512	140	147455
+            528	3.245	237	283542
+            529	2.451	104	121469
+            530	2.656	86	203300
+            531	2.875	109	165087
+            532	3.131	196	233943
+            533	3.776	82	165764
+            534	3.124	88	128601
+            535	3.844	100	157511
+            536	2.282	138	151085
+            537	2.775	86	151716
+            538	2.764	90	167215
+            539	2.41	96	166723
+            540	2.059	90	191561
+            541	2.757	146	122600
+            542	1.878	86	111909
+            543	2.641	198	157779
+            544	3.851	109	132891
+            545	2.92	74	154686
+            546	2.691	121	139280
+            547	2.612	172	144116
+            548	3.364	81	189872
+            549	3.588	187	205953
+            550	3.045	93	154200
+            551	3.643	70	214165
+            552	2.136	74	125559
+            553	2.91	129	126733
+            554	3.278	78	170550
+            555	2.168	70	141609
+            556	3.8	110	128384
+            557	3.12	114	145298
+            558	3.582	106	128993
+            559	2.819	145	131934
+            560	2.929	59	168746
+            561	3.241	41	209399
+            562	2.789	70	177017
+            563	3.123	172	206922
+            564	2.696	108	120353
+            565	2.721	198	164800
+            566	2.556	79	124168
+            567	3.85	94	126409
+            568	3.844	71	139404
+            569	2.877	119	179235
+            570	3.6	148	187996
+            571	3.565	122	144293
+            572	2.882	95	122043
+            573	3.56	82	139405
+            574	2.352	120	208029
+            575	2.572	67	125285
+            576	3.416	93	123833
+            577	2.491	75	129320
+            578	2.891	57	94784
+            579	4.512	111	164824
+            580	2.399	88	137768
+            581	2.547	114	121500
+            582	3.115	129	160269
+            583	3.75	72	207006
+            584	3.452	179	224725
+            585	2.601	84	148314
+            586	4.012	151	243842
+            587	2.828	140	153806
+            588	1.576	135	121682
+            589	2.915	103	192271
+            590	2.14	93	178797
+            591	2.428	79	204608
+            592	2.606	236	202212
+            593	2.947	121	234707
+            594	2.853	83	124929
+            595	3.769	93	139570
+            596	4.033	112	185337
+            597	2.629	97	120745
+            598	2.503	53	97794
+            599	3.801	51	135948
+            600	2.403	120	137097
+            601	3.227	136	160846
+            602	2.729	102	179613
+            603	3.294	64	160608
+            604	2.909	85	140998
+            605	3.395	86	121305
+            606	2.034	186	156129
+            607	3.196	136	160880
+            608	2.7	70	122450
+            609	2.16	51	168670
+            610	2.538	102	187469
+            611	2.745	100	168847
+            612	3.248	80	127534
+            613	3.399	71	151298
+            614	2.411	107	195083
+            615	2.831	100	140617
+            616	2.972	74	123805
+            617	3.144	131	153335
+            618	4.109	306	490736
+            619	2.094	54	129182
+            620	2.543	106	214157
+            621	3.538	93	154134
+            622	2.679	71	144242
+            623	2.676	251	201733
+            624	3.038	72	199124
+            625	3.55	81	190616
+            626	1.969	111	227039
+            627	1.946	156	210150
+            628	2.646	68	129810
+            629	3.712	91	120966
+            630	3.796	100	124173
+            631	2.548	129	135243
+            632	3.219	82	120099
+            633	2.549	50	157107
+            634	3.877	56	184088
+            635	3.029	40	133353
+            636	2.938	105	125278
+            637	2.929	48	153651
+            638	2.665	113	150287
+            639	3.751	147	182218
+            640	4.544	81	128208
+            641	2.939	125	153527
+            642	2.956	102	179256
+            643	2.775	151	121314
+            644	3.673	114	133371
+            645	2.941	78	186615
+            646	2.41	125	171014
+            647	4.776	91	150619
+            648	3.222	109	131279
+            649	3.485	53	128944
+            650	2.899	102	166322
+            651	2.315	96	177669
+            652	2.384	68	171422
+            653	2.684	66	145208
+            654	2.153	100	188250
+            655	2.804	93	127567
+            656	4.006	110	182024
+            657	2.15	91	149787
+            658	3.029	250	311806
+            659	2.643	161	124332
+            660	3.023	97	122887
+            661	3.302	75	125915
+            662	2.17	86	155120
+            663	3.057	128	160179
+            664	3.815	147	184680
+            665	3.332	119	139905
+            666	3.401	140	172027
+            667	2.309	73	111586
+            668	2.951	75	214724
+            669	3.306	74	212455
+            670	2.316	86	185270
+            671	3.046	104	127250
+            672	3.077	97	145361
+            673	2.772	103	137198
+            674	2.401	117	126212
+            675	3.743	111	135028
+            676	3.042	87	133051
+            677	3.131	101	122367
+            678	2.372	78	160846
+            679	2.971	70	127222
+            680	2.217	106	131478
+            681	2.637	134	143758
+            682	2.169	104	137264
+            683	4.246	120	182270
+            684	3.343	125	148111
+            685	2.984	73	155028
+            686	2.607	106	199205
+            687	2.272	183	141614
+            688	3.089	93	140097
+            689	2.667	136	140443
+            690	3.016	125	144472
+            691	3.379	32	141757
+            692	2.686	100	129208
+            693	3.532	125	158911
+            694	3.391	108	129094
+            695	3.485	47	209524
+            696	1.729	133	133072
+            697	2.124	102	192393
+            698	3.949	55	164993
+            699	2.818	111	185123
+            700	3.204	78	162954
+            701	3.174	100	129183
+            702	2.656	98	195533
+            703	2.891	82	145695
+            704	3.239	92	129634
+            705	2.721	84	153234
+            706	2.931	83	149161
+            707	3.199	130	143859
+            708	3.46	102	124642
+            709	3.118	82	138771
+            710	4.166	150	245135
+            711	2.686	92	134279
+            712	3.229	74	128641
+            713	3.137	138	172617
+            714	2.423	77	149161
+            715	1.949	102	124100
+            716	2.301	165	133120
+            717	3.076	54	146363
+            718	2.801	109	121825
+            719	3.248	111	135221
+            720	3.024	95	148882
+            721	2.398	114	131052
+            722	4.215	62	134568
+            723	3.793	54	231988
+            724	2.581	92	146787
+            725	2.496	213	167795
+            726	3.689	93	141595
+            727	2.805	104	188025
+            728	2.202	171	137662
+            729	2.299	36	77862
+            730	2.946	120	124178
+            731	2.313	93	147441
+            732	3.391	82	121735
+            733	2.959	116	145516
+            734	2.684	83	128513
+            735	3.682	58	188419
+            736	3.135	93	241249
+            737	3.114	102	141813
+            738	2.398	133	223391
+            739	1.737	172	127446
+            740	2.943	93	159779
+            741	2.691	128	148491
+            742	2.127	75	141765
+            743	2.614	116	201713
+            744	2.95	97	134354
+            745	3.063	102	129130
+            746	2.636	93	131791
+            747	2.826	96	167892
+            748	2.923	84	152775
+            749	3.375	136	162098
+            750	2.583	151	123868
+            751	2.835	77	156147
+            752	4.198	101	165594
+            753	3.964	102	126593
+            754	2.989	125	129860
+            755	2.911	103	206990
+            756	3.031	92	172758
+            757	3.769	50	170688
+            758	2.46	215	183737
+            759	3.075	104	129706
+            760	2.513	100	135910
+            761	3.39	124	144715
+            762	2.842	72	203168
+            763	2.251	94	151944
+            764	2.848	103	132393
+            765	2.094	59	138326
+            766	2.809	94	131067
+            767	3.07	139	160665
+            768	2.72	106	120205
+            769	2.206	53	145881
+            770	3.727	165	192784
+            771	3.355	73	121082
+            772	2.926	112	146632
+            773	2.036	220	184048
+            774	2.22	112	204812
+            775	3.484	116	147467
+            776	3.225	57	171398
+            777	3.088	92	130681
+            778	3.002	106	126844
+            779	2.632	53	128269
+            780	3.193	105	130517
+            781	3.147	135	159360
+            782	2.754	83	141713
+            783	2.327	120	132819
+            784	1.7	107	166564
+            785	3.464	157	185643
+            786	4.45	100	157167
+            787	3.478	69	123018
+            788	2.804	59	200654
+            789	3.521	87	132188
+            790	3.224	88	131562
+            791	2.765	148	156452
+            792	3.605	108	129595
+            793	3.14	127	154734
+            794	3.352	74	213968
+            795	3.159	64	227355
+            796	4.392	88	139052
+            797	2.99	138	125782
+            798	2.655	66	121443
+            799	3.797	97	153121
+            800	2.175	84	122576
+            801	2.322	113	168848
+            802	2.943	78	137830
+            803	3.037	122	155508
+            804	2.929	86	151185
+            805	2.229	189	152963
+            806	2.871	123	129102
+            807	4.001	43	132144
+            808	3.029	243	275500
+            809	2.807	86	126378
+            810	2.495	252	203920
+            811	2.522	62	124417
+            812	2.85	86	137579
+            813	3.643	82	120483
+            814	3.159	101	125902
+            815	2.744	186	161433
+            816	2.182	83	148453
+            817	3.276	95	122358
+            818	2.861	136	129514
+            819	3.433	87	173031
+            820	4.083	93	154260
+            821	1.633	66	106247
+            822	1.629	117	162071
+            823	3.807	83	133535
+            824	2.717	185	146441
+            825	2.856	47	208177
+            826	2.552	170	136210
+            827	3.18	124	139953
+            828	3.395	77	139006
+            829	3.348	74	191455
+            830	2.766	80	172345
+            831	3.777	122	144674
+            832	2.094	50	87530
+            833	2.609	102	201611
+            834	2.865	222	175530
+            835	3.417	149	180190
+            836	3.91	122	147331
+            837	2.918	72	159817
+            838	3.304	114	128201
+            839	3.591	149	181270
+            840	2.952	192	142044
+            841	3.353	227	266736
+            842	3.295	54	147158
+            843	2.391	84	132664
+            844	2.02	149	120781
+            845	2.228	102	188909
+            846	2.38	84	179070
+            847	1.905	74	106751
+            848	2.865	102	175781
+            849	3.379	96	152072
+            850	4.206	51	132172
+            851	2.157	120	122517
+            852	2.491	152	123540
+            853	3.602	265	316053
+            854	3.946	166	206310
+            855	2.288	65	127021
+            856	3.521	46	129630
+            857	2.158	117	194112
+            858	3.388	102	129086
+            859	2.522	81	148076
+            860	1.842	86	165909
+            861	3.284	180	231333
+            862	2.548	86	125388
+            863	2.322	61	191678
+            864	2.538	130	130092
+            865	3.214	81	191362
+            866	3.631	75	123972
+            867	3.872	125	146965
+            868	2.741	94	168014
+            869	3.319	62	150443
+            870	3.021	78	158879
+            871	3.249	76	194849
+            872	2.882	53	180046
+            873	3.163	114	135264
+            874	3.143	78	185829
+            875	3.491	82	134655
+            876	1.968	90	189405
+            877	3.414	130	151456
+            878	3.927	156	193358
+            879	2.154	117	141122
+            880	3.778	95	125234
+            881	2.35	61	120720
+            882	2.592	263	205049
+            883	1.712	154	125155
+            884	2.627	68	156540
+            885	2.898	239	200095
+            886	3.981	82	218255
+            887	2.999	108	204244
+            888	2.448	77	130542
+            889	1.374	83	156036
+            890	3.009	56	143999
+            891	2.529	107	150001
+            892	2.253	141	154448
+            893	3.398	96	136163
+            894	2.661	101	210905
+            895	2.229	109	130556
+            896	3.528	158	188133
+            897	2.791	88	127879
+            898	3.98	119	147356
+            899	3.359	101	120520
+            900	3.267	147	174965
+            901	3.256	94	155335
+            902	4.031	55	121747
+            903	2.419	179	154076
+            904	3.378	153	186168
+            905	3.262	61	156780
+            906	3.285	39	175560
+            907	3.156	81	153046
+            908	2.862	65	145335
+            909	3.516	158	178191
+            910	2.809	110	135420
+            911	2.353	97	158530
+            912	3.219	102	122609
+            913	2.314	117	126222
+            914	2.82	165	128297
+            915	2.617	65	192404
+            916	3.22	106	130063
+            917	2.01	77	156514
+            918	3.18	272	333373
+            919	3.003	101	122545
+            920	2.602	117	125245
+            921	2.872	52	82767
+            922	2.826	93	121192
+            923	3.734	181	228596
+            924	2.365	73	196506
+            925	2.99	106	237779
+            926	3.011	205	242834
+            927	2.765	234	199985
+            928	3.298	76	142755
+            929	3.772	88	141999
+            930	3.239	66	133794
+            931	2.738	84	140473
+            932	2.59	90	164197
+            933	2.515	64	143778
+            934	2.566	64	225538
+            935	2.946	142	141329
+            936	2.851	45	134196
+            937	2.023	156	129550
+            938	2.851	155	123140
+            939	3.055	87	139080
+            940	2.805	79	154639
+            941	2.595	119	127611
+            942	3.268	214	250608
+            943	3.329	119	143619
+            944	2.76	100	153572
+            945	3.171	76	188656
+            946	3.147	113	128334
+            947	4.179	89	143822
+            948	2.937	302	233276
+            949	3.442	73	149301
+            950	3.848	74	161927
+            951	2.818	184	150280
+            952	2.702	85	220557
+            953	2.567	50	120090
+            954	2.942	149	137635
+            955	2.557	302	256760
+            956	2.905	113	141512
+            957	2.9	78	174981
+            958	2.854	81	147081
+            959	2.669	92	142766
+            960	3.487	133	157261
+            961	4.027	185	286382
+            962	3.753	68	209622
+            963	3.067	167	189878
+            964	2.804	86	124836
+            965	3.127	78	181826
+            966	2.944	93	129123
+            967	2.679	90	163473
+            968	2.744	78	167747
+            969	2.892	284	226907
+            970	2.389	71	159062
+            971	3.138	84	138166
+            972	2.589	74	136880
+            973	2.083	66	155582
+            974	3.067	160	197303
+            975	2.249	102	143795
+            976	2.811	96	150465
+            977	2.823	128	133003
+            978	3.405	80	141428
+            979	2.626	142	211681
+            980	3.667	116	135423
+            981	3.645	68	135765
+            982	3.3	150	186714
+            983	2.797	146	124973
+            984	2.841	89	134954
+            985	3.213	174	203223
+            986	3.242	48	157337
+            987	3.087	107	125713
+            988	3.359	91	144920
+            989	2.742	144	122464
+            990	3.455	109	134663
+            991	2.973	76	162497
+            992	3.143	126	149970
+            993	3.393	60	159465
+            994	2.227	71	125838
+            995	1.913	83	80079
+            996	3.952	104	124770
+            997	3.904	82	214339
+            998	3.575	75	128628
+            999	3.606	98	131932
+            1000	2.934	130	122540

@@ -6,3 +6,4 @@ data tubular2.dat;
 option solver gurobi;
 solve totalcost;
 display x;
+display DemandConst;
