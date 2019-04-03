@@ -1,0 +1,18 @@
+param Ar{J}; # Arbaer
+param Mi{J}; # Midbaer
+param Ko{J}; # Kopavogur
+param Hf{J}; # Hafnarfjordur
+param LV{J}; # Laugar..Vogar
+param Ge{J}; # Gerdi
+param Br{J}; # Breidholt
+param Gv{J}; # Grafarvogur
+param Ve{J}; # Vesturvaer
+param Se{J}; # Seltjarnarnes
+param Ha{J}; # Haaleiti
+param Hl{J}; # Hlidar
+param Fo{J}; # Fossvogur
+param Ga{J}; # Gardabaer
+param Mo{J}; # Mosfellsbaer
+param Gh{J}; # Grafarholt
+
+Ar Mi Ko Hf LV Ge Br Gv Ve Se Ha Hl Fo Ga Mo Gh 

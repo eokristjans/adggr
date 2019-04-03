@@ -19733,6 +19733,12 @@
             19732	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0
             19733	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
             19734	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+            ;
 
+.mod
+set IS within I cross S;
+param si{I,S}; # stadsetning eignar
 
+.dat
+set S := Ar	Mi	Ko	Hf	LV	Ge	Br	Gv	Ve	Se	Ha	Hl	Fo	Ga	Mo	Gh;
 param: IS: si:  Ar	Mi	Ko	Hf	LV	Ge	Br	Gv	Ve	Se	Ha	Hl	Fo	Ga	Mo	Gh :=
