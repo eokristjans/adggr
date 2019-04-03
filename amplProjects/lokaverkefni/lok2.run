@@ -11,7 +11,7 @@ option cplex_options 'mipdisplay=2';
 
 solve markfall;
 display fjarmagn_constr;
-expand markfall;
+display markfall;
 display x;
 
 

@@ -49,15 +49,17 @@ markfall: sum{i in I, j in J} ci[i] * z[i,j];
 
 s.t. fjarmagn_constr: sum{i in I} ci[i] * x[i] <= fjarmagn;
 
-
 s.t. eign_keypt_constr{i in I}: x[i] >= sum{j in J} z[i,j];
+
 # now use this variable z to add all other constraints for customer j
 # this will force z[i,j] to be zero if the quality is too low
 s.t. gaedi_constr{j in J}: sum{i in I: gi[i] < gj[j]} z[i,j] = 0;
-# this will force z[i,j] to be zero if the price is too high
-s.t. verd_constr{j in J}: sum{i in I: 0.05*ci[i] > cj[j]} z[i,j] = 0;
+
+# this will force z[i,j] to be zero 
+# if 0.5% of the price of the apartment is more than customer's credit
+s.t. verd_constr{j in J}: sum{i in I: 0.005*ci[i] > cj[j]} z[i,j] = 0;
+
 # this will force z[i,j] to be zero if the size is too small
 s.t. staerd_constr{j in J}: sum{i in I: mi[i] > mj[j]} z[i,j] = 0;
-s.t. svaedi_constr{i in I, s in S}: sum{(j,s) in JS: sj[j,s] * si[i,s] == 0} z[i,j] = 0;
 
-# svaedi_constr: fyrir hvert i, ef ekkert si = sj �� er z = 0
+# s.t. svaedi_constr{i in I, s in S}: sum{(j,s) in JS: sj[j,s] * si[i,s] == 0} z[i,j] = 0;
