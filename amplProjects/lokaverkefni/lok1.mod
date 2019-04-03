@@ -19,22 +19,22 @@ param gj{J}; # gaedakrafa kunna
 param si{I,S} binary; # stadsetning eignar
 param sj{J,S} binary; # stadsetningarkrafa kunna
 
-param Ar{J}; # Arbaer
-param Mi{J}; # Midbaer
-param Ko{J}; # Kopavogur
-param Hf{J}; # Hafnarfjordur
-param LV{J}; # Laugar..Vogar
-param Ge{J}; # Gerdi
-param Br{J}; # Breidholt
-param Gv{J}; # Grafarvogur
-param Ve{J}; # Vesturvaer
-param Se{J}; # Seltjarnarnes
-param Ha{J}; # Haaleiti
-param Hl{J}; # Hlidar
-param Fo{J}; # Fossvogur
-param Ga{J}; # Gardabaer
-param Mo{J}; # Mosfellsbaer
-param Gh{J}; # Grafarholt
+# param Ar{J}; # Arbaer
+# param Mi{J}; # Midbaer
+# param Ko{J}; # Kopavogur
+# param Hf{J}; # Hafnarfjordur
+# param LV{J}; # Laugar..Vogar
+# param Ge{J}; # Gerdi
+# param Br{J}; # Breidholt
+# param Gv{J}; # Grafarvogur
+# param Ve{J}; # Vesturvaer
+# param Se{J}; # Seltjarnarnes
+# param Ha{J}; # Haaleiti
+# param Hl{J}; # Hlidar
+# param Fo{J}; # Fossvogur
+# param Ga{J}; # Gardabaer
+# param Mo{J}; # Mosfellsbaer
+# param Gh{J}; # Grafarholt
 
 
 # purchase property i (binary decision)
@@ -54,10 +54,11 @@ s.t. eign_keypt_constr{i in I}: x[i] >= sum{j in J} z[i,j];
 # now use this variable z to add all other constraints for customer j
 # this will force z[i,j] to be zero if the quality is too low
 s.t. gaedi_constr{j in J}: sum{i in I: gi[i] < gj[j]} z[i,j] = 0;
-# this will force z[i,j] to be zero if the price is too high
-s.t. verd_constr{j in J}: sum{i in I: 0.05*ci[i] > cj[j]} z[i,j] = 0;
+# this will force z[i,j] to be zero 
+# if 0.5% of the price of the apartment is more than customer's credit
+s.t. verd_constr{j in J}: sum{i in I: 0.005*ci[i] > cj[j]} z[i,j] = 0;
 # this will force z[i,j] to be zero if the size is too small
 s.t. staerd_constr{j in J}: sum{i in I: mi[i] > mj[j]} z[i,j] = 0;
-s.t. svaedi_constr{i in I, s in S}: sum{(j,s) in JS: sj[j,s] * si[i,s] == 0} z[i,j] = 0;
+# s.t. svaedi_constr{i in I, s in S}: sum{(j,s) in JS: sj[j,s] * si[i,s] == 0} z[i,j] = 0;
 
-# svaedi_constr: fyrir hvert i, ef ekkert si = sj юб er z = 0
+# svaedi_constr: fyrir hvert i, ef ekkert si = sj пїЅпїЅ er z = 0
