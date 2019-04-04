@@ -21,5 +21,5 @@ display x;
 # https://ampl.com/NEW/examine.html
 
 
-# expand z >> "lok2.txt";
-# display z >> "lok2z.txt";
+# expand z >> "lok1.txt";
+# display z >> "lok1_displayz.txt";
