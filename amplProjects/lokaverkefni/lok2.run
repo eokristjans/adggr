@@ -16,4 +16,6 @@ display x;
 
 
 
+# display z >> "lok2z.txt";
+
 # http://www.math.uwaterloo.ca/~hwolkowi/henry/teaching/f08/370.f08/f08co370webpages.d/ampl/ampl-cmd.txt
