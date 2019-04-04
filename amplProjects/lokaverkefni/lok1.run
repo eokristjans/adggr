@@ -7,6 +7,7 @@ option solver gurobi;
 
 option show_stats 1;
 option omit_zero_rows 1;
+option omit_zero_cols 1;
 option cplex_options 'mipdisplay=2';
 
 solve markfall;
@@ -21,5 +22,5 @@ display x;
 # https://ampl.com/NEW/examine.html
 
 
-# expand z >> "lok1.txt";
-# display z >> "lok1_displayz.txt";
+# expand z >> "lok1_expandz.txt"; # do not fkn run this command!
+# display z >> "lok1_displayz2.txt";
