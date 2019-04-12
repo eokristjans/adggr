@@ -4,6 +4,9 @@
 # Besta lausn med 7.2% ROI krofu (0.6% per month)
 # 239, 37799759.4, 6299959900
 
+# Besta lausn med 8.28% ROI krofu (0.69% per month)
+# 257, 43469454.21, 6299920900
+
 # Besta lausn med 8.4% ROI krofu (0.7% per month)
 # 247, 42400121.4, 6057160200
 
@@ -16,21 +19,32 @@
 # Besta lausn med 12.0% ROI krofu (1.0% per month)
 # 47, 7693413, 769341300
 
-# Besta lausn med 14.2% ROI krofu (1.1% per month)
+# Besta lausn med 14.2% ROI krofu (1.1% per month)    endurskoda
 # 225, 4025249.8, 365931800
 
 # Besta lausn med 14.2% ROI krofu (1.2% per month)
 # 39, 1865354.4, 155446200
 
 # Besta lausn med 14.2% ROI krofu (1.3% per month)
-# 15, 787844.2, 155446200
+# 15, 787844.2, 60603400
 
 # Besta lausn med 14.2% ROI krofu (1.4% per month)
-# 4, 810537, 155446200
+# 4, 810537, 57895500
 
-# Besta lausn med 14.2% ROI krofu (1.5% per month)
-# 1, 810537, 155446200
-# Verðmætasta eignin: nr 7850, leigist til kunna 934
+# Besta lausn med 17.4% ROI krofu (1.5% per month)    endurskoda
+# 1, 214500, 14300000
+
+# Besta lausn med 17.4% ROI krofu (1.6% per month)    endurskoda
+# 0, 0, 0
+
+naemnigr_prosenta <- append(c(0.5, 0.6, 0.69), c(7:16)/10)
+naemnigr_fjoldi_eigna <- c(221, 239, 257, 247, 133, 77, 47, 225, 39, 15, 4, 1, 0)
+naemnigr_leigutekjur <- c(31499734.5, 37799759.4, 43469454.21, 42400121.4, 23328999.2, 13779792, 7693413, 4025249.8, 1865354.4, 787844.2, 810537, 214500, 0)
+naemnigr_fjarfesting <- c(6299947000, 6299959900, 6299920900, 6057160200, 2916124900, 1531088000, 769341300, 365931800, 155446200, 60603400, 57895500, 14300000, 0)
+
+length(naemnigr_leigutekjur)
+
+# Verðmætasta eignin i thessum skilningi: nr 7850, leigist til kunna 934
 # > eignir1[7850,]
 # nrhus nuvirdi ibm2 matssvaedi gaedi
 # 7850   14300  66.3     Gerdin 2.602
@@ -40,6 +54,12 @@
 # > kunnar$as_matsvaedi[934]
 # [1] "Hlidar Vesturbaer LaugarneshverfiVogar Breidholt Fossvogur Midbaer Haaleiti Gerdin Kopavogur"
 
+
+
+
+# Besta lausn med fostum rekstrarkostnadi
+naemingr1_fastur_kostnadur <- c(50000, 100000, 150000, 200000, 230000, 250000)
+naemingr1_fjoldi_keyptra_eigna <- c(158, 158, 157, 66, 13, 0)
 
 
 
