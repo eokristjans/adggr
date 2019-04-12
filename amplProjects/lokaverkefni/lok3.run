@@ -1,9 +1,15 @@
-# include lok1.run;
+# include lok3.run;
 
 reset;
-model lok1.mod;
+model lok3.mod;
 data lok1.dat;
 option solver gurobi;
+
+option times 1;
+option gentimes 1;
+option show_stats 1;
+option gurobi_options 'outlev=1 threads=4 timing=2 timelim=120';
+
 
 option show_stats 1;
 option omit_zero_rows 1;
@@ -23,4 +29,4 @@ display x;
 
 
 # expand z >> "lok1_expandz.txt"; # do not fkn run this command!
-display z >> "lok1_display_z.txt";
+# display z >> "lok3_display_z1.txt";

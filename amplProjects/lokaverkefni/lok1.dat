@@ -1,4 +1,5 @@
 param fjarmagn := 6300000;  # thusundir ISK
+param factor := 15;
 
 set S := Ar	Mi	Ko	Hf	LV	Ge	Br	Gv	Ve	Se	Ha	Hl	Fo	Ga	Mo	Gh;
 # set I := 1 .. 19734; # Eignir

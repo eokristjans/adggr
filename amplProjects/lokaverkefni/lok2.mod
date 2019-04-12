@@ -68,6 +68,7 @@ s.t. staeard_constr{j in J, i in I}:  z[i,j]*mi[i] >= z[i,j]*mj[j];
 
 
 # s.t. svaedi_constr{i in I, s in S}: sum{(j,s) in JS: sj[j,s] * si[i,s] == 0} z[i,j] = 0; # gamla
+s.t. svaedi_constr{(i,s) in IS, (j,s) in JS}: z[i,j]*si[i,s] >= z[i,j]*sj[j,s];
 
 
 # put z[i,j] instead of x[i] because this specific customer needs to fulfill the requirements

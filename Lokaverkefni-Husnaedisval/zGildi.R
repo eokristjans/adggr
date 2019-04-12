@@ -1,8 +1,6 @@
 library(tidyr)
 library(dplyr)
 library(ggplot2)
-library(knitr)
-library(reshape2)
 
 # Sidustu tvaer eignir og kunnar:
 #      5813 993 
@@ -10,8 +8,8 @@ library(reshape2)
 
 
 # Read clean information about properties and customers
-eignir1 <- read.csv(file="C:\\Users\\ellio\\Documents\\hi\\v19\\adggr\\Lokaverkefni-Husnaedisval\\GognErling\\eignir.txt", sep="\t")
-kunnar1 <- read.csv(file="C:\\Users\\ellio\\Documents\\hi\\v19\\adggr\\Lokaverkefni-Husnaedisval\\GognErling\\kunnar.txt", sep="\t")
+eignir1 <- read.csv(file="C:\\Users\\Erling Oskar\\Documents\\hi\\v19\\adggr\\Lokaverkefni-Husnaedisval\\GognErling\\eignir.txt", sep="\t")
+kunnar1 <- read.csv(file="C:\\Users\\Erling Oskar\\Documents\\hi\\v19\\adggr\\Lokaverkefni-Husnaedisval\\GognErling\\kunnar.txt", sep="\t")
 
 
 # Local location of .txt files with tables of selected customers and properties
@@ -90,7 +88,6 @@ fjoldi_eigna <- length(leigdar.eignir.list)
 
 if(fjoldi_eigna != fjoldi_leigjenda) print("Fjoldi eigna og leigjenda er ekki jafn")
 
-
 # Now check if all constraints are met for each property and customer combination
 for(i in (1:fjoldi_leigjenda)){
   if( !(kunnar1$gaedi[valdir.kunnar.list[i]] <= eignir1$gaedi[leigdar.eignir.list[i]])){
@@ -107,12 +104,110 @@ for(i in (1:fjoldi_leigjenda)){
   } 
 }
 
+gaedi.k <- vector()
+gaedi.e <- vector()
+staerd.k <- vector()
+staerd.e <- vector()
+leiga.k <- vector()
+leiga.e <- vector()
+
+for(i in (1:fjoldi_leigjenda)){
+    gaedi.k <- append(gaedi.k, round(kunnar1$gaedi[valdir.kunnar.list[i]],3))
+    gaedi.e <- append(gaedi.e, round(eignir1$gaedi[leigdar.eignir.list[i]],3))
+    staerd.k <- append(staerd.k, round(kunnar1$staerd[valdir.kunnar.list[i]],1))
+    staerd.e <- append(staerd.e, round(eignir1$ibm2[leigdar.eignir.list[i]],1))
+    leiga.k <- append(leiga.k, round(kunnar1$greidslugeta[valdir.kunnar.list[i]],1))
+    leiga.e <- append(leiga.e, round(5.0*eignir1$nuvirdi[leigdar.eignir.list[i]],1))
+}
+
+sum(leiga.k)
+sum(leiga.e)
+
+eignir_og_kunnar.df <- as.data.frame(cbind(leigdar.eignir.list, valdir.kunnar.list, gaedi.e, gaedi.k, staerd.e, staerd.k, leiga.e, leiga.k))
+names(eignir_og_kunnar.df) <- c("i", "k", "gi", "gj", "mi", "mj", "ci", "cj")
+
+write.table(x = eignir_og_kunnar.df, row.names = F, col.names = T,
+            file="C:\\Users\\Erling Oskar\\Documents\\hi\\v19\\adggr\\Lokaverkefni-Husnaedisval\\GognErling\\grunn_gogn\\valdar_eignir_og_kunnar.txt", sep="\t")
+
+eignir_og_kunnar.table <- as.table(eignir_og_kunnar.df)
+
+tail(eignir_og_kunnar.df, 92)
+
+gaedi.df = as.data.frame(cbind(gaedi.e, gaedi.k))
+names(gaedi.df) <- c("eign", "kunni")
+leiga.df = as.data.frame(cbind(leiga.e, leiga.k))
+names(leiga.df) <- c("eign", "kunni")
+staerd.df = as.data.frame(cbind(staerd.e, staerd.k))
+names(staerd.df) <- c("eign", "kunni")
+
+plot(gaedi.df[[1]], col= 'red', type='l', xlab="", ylab="")
+par(new=TRUE)
+plot(gaedi.df[[2]], col= 'blue', type='l', xlab="Númer pars", ylab="Gæði")
+
+
+ggplot(gaedi.df, aes(x=c(1:217), y=eign, fill="Red"), xlims=c(0,5)) +  geom_col() + geom_point(data = gaedi.df, aes(x=c(1:217), kunni))
+
+ggplot(gaedi.df, aes(x=c(1:217), y=kunni, fill='Blue'), xlims=c(0,5)) + geom_col()
+
+
+
 summa = 0
 # Calculate the sum of the properties
 for(e in leigdar.eignir.list){
   summa = summa + eignir1$nuvirdi[e]
 }
 print(paste("Keyptum eignir fyrir", summa*1000, "kr."))
+
+# Filter only selected customers and properties from the data frames
+leigdar.eignir.df <- subset(eignir1, nrhus%in%leigdar.eignir.list)
+valdir.kunnar.df <- subset(kunnar1, nrkunna%in%valdir.kunnar.list)
+
+smoothScatter()
+
+
+
+ggplot() + geom_histogram(data=leigdar.eignir.df, aes(nuvirdi), binwidth = 1000) + labs(x='Núvirdi', y='Fjöldi')
+ggplot() + geom_histogram(data=leigdar.eignir.df, aes(gaedi), binwidth = 0.1) + labs(x='Gæði', y='Fjöldi')
+ggplot() + geom_histogram(data=leigdar.eignir.df, aes(ibm2), binwidth = 10) + labs(x='Stærð', y='Fjöldi')
+ggplot() + geom_bar(data=leigdar.eignir.df, aes(matssvaedi))
+
+
+ggplot() + geom_histogram(data=valdir.kunnar.df, aes(greidslugeta), binwidth = 5000) + labs(x='Greiðslugeta', y='Fjöldi')
+ggplot() + geom_histogram(data=valdir.kunnar.df, aes(gaedi), binwidth = 0.1) + labs(x='Gæði', y='Fjöldi')
+ggplot() + geom_histogram(data=valdir.kunnar.df, aes(staerd), binwidth = 10) + labs(x='Stærð', y='Fjöldi')
+ggplot() + geom_bar(data=valdir.kunnar.df, aes(matssvaedi))
+
+
+lengd <- c(1:217)
+gaedi.df = as.data.frame(cbind(leigdar.eignir.df$gaedi, valdir.kunnar.df$gaedi))
+names(gaedi.df) <- c("eign", "kunni")
+str(gaedi.df)
+
+ggplot() + geom_(data = gaedi.df, aes(eign), type="p")
+
+
+
+
+ggplot() + geom_histogram(data=gaedi.df[[1]], aes(gaedi), binwidth = 0.1) + labs(x='Gæði', y='Fjöldi')
+ggplot() + geom_histogram(data=leigdar.eignir.df, aes(gaedi), binwidth = 0.1) + labs(x='Gæði', y='Fjöldi')
+
+
+
+# Contingency table
+df1118 = data.frame(alive=c(4597,67093),deceased=c(618,422))
+row.names(df1118) = c('<2500','>2500')
+print(df1118)
+# Contingency table with totals
+totaldf1118 = cbind(df1118, rowSums(df1118))
+totaldf1118 = rbind(totaldf1118, colSums(totaldf1118))
+row.names(totaldf1118) = c('<2500','>2500','Total Y')
+names(totaldf1118) = c('alive','deceased','Total X')
+print(totaldf1118)
+# Calculate value of test statistic
+n1118 = sum(df1118)
+df1118t = df1118[1,]^2/(rowSums(df1118)[1]*colSums(df1118))
+df1118t = rbind(df1118t,df1118[2,]^2/(rowSums(df1118)[2]*colSums(df1118)))
+
 
 
 
@@ -127,13 +222,9 @@ summa <-0
 for(i in valdar.eignir.index){
   summa = summa + eignir$nuvirdi[i]
 }
-valdar.eignir <- subset(eignir1, nrhus%in%valdar.eignir.index)
 
-valdar.eignir_matssvaedi <- valdar.eignir
-valdar.eignir_matssvaedi$nuvirdi <- NULL
-valdar.eignir_matssvaedi$ibm2 <- NULL
-valdar.eignir_matssvaedi$gaedi <- NULL
-valdar.eignir_matssvaedi$nrhus <- NULL
+
+valdar.eignir_matssvaedi <- leigdar.eignir.df
 
 valdar.eignir_matssvaedi.list <- vector()
 for(j in (1:length(valdar.eignir_matssvaedi$matssvaedi))){
@@ -143,9 +234,54 @@ for(j in (1:length(valdar.eignir_matssvaedi$matssvaedi))){
     }
   }
 }
-valdar.eignir$matssvaedi <- valdar.eignir_matssvaedi.list
+# Inniheldur
+valdar.eignir_matssvaedi$matssvaedi <- valdar.eignir_matssvaedi.list
+
+eignir_og_kunnar.df$si <- valdar.eignir_matssvaedi.list
+
+length(valdar.eignir_matssvaedi.list)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+valdar.eignir <- subset(eignir1, nrhus%in%valdar.eignir.index)
 names(valdar.eignir) <- c("nrhus", "nuvirdi", "ibm2", "matssvaedi", "gaedi")
 str(valdar.eignir)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 fjarmagn
 sum(valdar.eignir$nuvirdi)
