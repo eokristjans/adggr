@@ -173,7 +173,6 @@ ggplot() + geom_bar(data=leigdar.eignir.df, aes(matssvaedi))
 
 
 ggplot() + geom_histogram(data=valdir.kunnar.df, aes(greidslugeta), binwidth = 5000) + labs(x='Greiðslugeta', y='Fjöldi')
-ggplot() + geom_histogram(data=valdir.kunnar.df, aes(gaedi), binwidth = 0.1) + labs(x='Gæði', y='Fjöldi')
 ggplot() + geom_histogram(data=valdir.kunnar.df, aes(staerd), binwidth = 10) + labs(x='Stærð', y='Fjöldi')
 ggplot() + geom_bar(data=valdir.kunnar.df, aes(matssvaedi))
 

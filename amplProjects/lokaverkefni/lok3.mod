@@ -4,6 +4,7 @@ set J; # Kunnar
 set S;
 set JS within J cross S;
 set IS within I cross S;
+set Y;
 
 param si{I,S} binary; # stadsetning eignar
 param sj{J,S} binary; # stadsetningarkrafa kunna
@@ -25,13 +26,13 @@ var x{I} binary;
 set IJ := setof{i in I, j in J: 
 					mi[i] >= mj[j] 
 				and gi[i] >= gj[j] 
-				and factor*ci[i] <= cj[j] } (i,j) ;
+				and 5*ci[i] <= cj[j] } (i,j) ;
 
 # Leigja eign i til kunna j, tviundarakvordun
 var z{IJ} binary;
 
 # Hamarka leigutekjur
-maximize markfall: sum{(i,j) in IJ} (ci[i] * z[i,j] * factor); #  - 200000*z[i,j]
+maximize markfall: sum{(i,j) in IJ} (factor * ci[i] * z[i,j]); # * factor  - 200000*z[i,j]
 
 # Keyptar eignir ekki meira en fjarmagn til umrada
 s.t. fjarmagn_constr: sum{i in I} ci[i] * x[i] <= fjarmagn;

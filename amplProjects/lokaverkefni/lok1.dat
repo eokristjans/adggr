@@ -5,6 +5,8 @@ set S := Ar	Mi	Ko	Hf	LV	Ge	Br	Gv	Ve	Se	Ha	Hl	Fo	Ga	Mo	Gh;
 # set I := 1 .. 19734; # Eignir
 # set J := 1 .. 1000; # Kunnar
 
+# set Y := 6.5, 6.6, 6.7, 6.8, 6.9, 7.0;
+
 
 param: IS: si:  Ar	Mi	Ko	Hf	LV	Ge	Br	Gv	Ve	Se	Ha	Hl	Fo	Ga	Mo	Gh :=
             1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0

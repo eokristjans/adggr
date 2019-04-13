@@ -50,6 +50,7 @@ naemnigr <- data.frame(avoxtunarkrafa = naemnigr_prosenta,
                        fjarfesting = naemnigr_fjarfesting)
 naemnigr$hamarks_leigutekjurMillj = naemnigr$hamarks_leigutekjur/1000000
 naemnigr$avoxtunarkrafa = naemnigr$avoxtunarkrafa/100
+
 ggplot(naemnigr, aes(x = avoxtunarkrafa)) +
   geom_line(aes(y = hamarks_leigutekjurMillj), color="blue") +
   geom_point(aes(y = hamarks_leigutekjurMillj), color="red") +
@@ -60,29 +61,29 @@ ggplot(naemnigr, aes(x = avoxtunarkrafa)) +
   scale_y_continuous(breaks = seq(min(naemnigr$hamarks_leigutekjurMillj), 
                                   max(naemnigr$hamarks_leigutekjurMillj) + 5, 
                                   by = 2.5)) +
-  xlab("Mánaðarleg ávöxtunarkrafa (%)") +
+  xlab("Mánaðarleg ávöxtunarkrafa") +
   ylab("Hámarksleigutekjur (Millj. kr.)") +
-  ggtitle("Hámarksleigutekjur sem fall af ávöxtunarkröfu") +
+  ggtitle("Hámarksleigutekjur sem fall af mánaðarlegri ávöxtunarkröfu") +
   theme(plot.title = element_text(hjust = 0.5))
         
-ggsave("hamarksleigutekjur.png")
+ggsave("hamarksleigutekjur1.png")
 
-ggplot(naemnigr, aes(x = fjoldi_eigna)) +
-  geom_line(aes(y = avoxtunarkrafa), color="blue") +
-  geom_point(aes(y = avoxtunarkrafa), color="red") +
-  scale_y_continuous(labels = scales::percent,
+ggplot(naemnigr, aes(x = avoxtunarkrafa)) +
+  geom_line(aes(y = fjoldi_eigna), color="blue") +
+  geom_point(aes(y = fjoldi_eigna), color="red") +
+  scale_x_continuous(labels = scales::percent,
                      breaks = seq(min(naemnigr$avoxtunarkrafa),
                                   max(naemnigr$avoxtunarkrafa), 
                                   by = 0.001)) +
-  scale_x_continuous(breaks = seq(min(naemnigr$fjoldi_eigna),
+  scale_y_continuous(breaks = seq(min(naemnigr$fjoldi_eigna),
                                   max(naemnigr$fjoldi_eigna) + 5, 
                                   by = 20)) +
-  ylab("Ávöxtunarkrafa (%)") +
-  xlab("Fjöldi útleigðra eigna") +
-  ggtitle("Ávöxtunarkrafa og fjöldi útleigðra eigna") +
+  xlab("Mánaðarleg ávöxtunarkrafa") +
+  ylab("Fjöldi útleigðra eigna") +
+  ggtitle("Fjöldi útleigðra eigna sem fall af mánaðarlegri ávöxtunarkröfu") +
   theme(plot.title = element_text(hjust = 0.5))
 
-ggsave("fjoldi_utleigdra_eigna.png")
+ggsave("fjoldi_utleigdra_eigna1.png")
 
 length(naemnigr_leigutekjur)
 
@@ -100,8 +101,34 @@ length(naemnigr_leigutekjur)
 
 
 # Besta lausn med fostum rekstrarkostnadi
-naemingr1_fastur_kostnadur <- c(50000, 100000, 150000, 200000, 230000, 250000)
-naemingr1_fjoldi_keyptra_eigna <- c(158, 158, 157, 66, 13, 0)
+naemingr1_fastur_kostnadur <- c(0, 50000, 100000, 150000, 200000, 230000, 250000)
+naemingr1_fjoldi_keyptra_eigna <- c(221, 158, 158, 157, 66, 13, 0)
+
+naemnigr1 <- data.frame(fastur_kostnadur = naemingr1_fastur_kostnadur/1000, 
+                       fjoldi_eigna = naemingr1_fjoldi_keyptra_eigna)
+
+ggplot(naemnigr1, aes(x = fastur_kostnadur)) +
+  geom_line(aes(y = fjoldi_eigna), color="blue") +
+  geom_point(aes(y = fjoldi_eigna), color="red") +
+  scale_x_continuous(breaks = seq(min(naemnigr1$fastur_kostnadur),
+                                  max(naemnigr1$fastur_kostnadur), 
+                                  by = 20)) +
+  scale_y_continuous(breaks = seq(min(naemnigr1$fjoldi_eigna),
+                                  max(naemnigr1$fjoldi_eigna) + 5, 
+                                  by = 20)) +
+  xlab("Fastur mánaðarlegur rekstrarkostnaður (Þús. kr.)") +
+  ylab("Fjöldi keyptra eigna") +
+  ggtitle("Fjöldi keyptra eigna sem fall af föstum mánaðarlegum rekstrarkostnaði") +
+  theme(plot.title = element_text(hjust = 0.5))
+
+ggsave("fjoldi_keyptra_eigna1.png")
+
+
+
+
+
+
+
 
 
 
@@ -189,6 +216,8 @@ for(i in (1:fjoldi)){
 }
 
 
+
+
 svaedi.k <- vector()
 svaedi.e <- vector()
 for(i in (1:fjoldi)){
@@ -200,6 +229,49 @@ eignir1$matssvaedi[[,2]]
 sum(leiga.e)
 
 
+
+eignir_og_kunnar.df <- as.data.frame(cbind(eig, kun, gaedi.e, gaedi.k, staerd.e, staerd.k, leiga.e, leiga.k))
+names(eignir_og_kunnar.df) <- c("i", "j", "gi", "gj", "mi", "mj", "ci", "cj")
+
+
+
+
+gaedi.df = as.data.frame(cbind(gaedi.e, gaedi.k))
+names(gaedi.df) <- c("eign", "kunni")
+leiga.df = as.data.frame(cbind(leiga.e, leiga.k))
+names(leiga.df) <- c("eign", "kunni")
+staerd.df = as.data.frame(cbind(staerd.e, staerd.k))
+names(staerd.df) <- c("eign", "kunni")
+
+
+urtak <- sample_n(eignir_og_kunnar.df, 15)
+
+gaedi1 <- rbind(urtak$gi, urtak$gj)
+barplot(gaedi1, beside=T)
+
+gaedi1 <- rbind(urtak$gi, urtak$gj)
+barplot(gaedi1, beside=T, names.arg=paste(urtak$i, urtak$j, sep="\n"), xlab="Númer eignar og tilsvarandi kúnna", ylab="Gæði", main="Gæði keyptrar eignar (dökkgrátt) og kröfur tilsvarandi kúnna (ljósgrátt)")
+
+staerd1 <- rbind(urtak$mi, urtak$mj)
+barplot(staerd1, beside=T, names.arg=paste(urtak$i, urtak$j, sep="\n"), xlab="Númer eignar og tilsvarandi kúnna", ylab="Stærð [m2]", main="Stærð keyptrar eignar (dökkgrátt) og kröfur tilsvarandi kúnna (ljósgrátt)")
+
+verd1 <- rbind(urtak$ci/1000, urtak$cj/1000)
+barplot(verd1, beside=T, names.arg=paste(urtak$i, urtak$j, sep="\n"), xlab="Númer eignar og tilsvarandi kúnna", ylab="Leiguverð og greiðslugeta (Þús. kr.)", main="Leiguverð keyptrar eignar (dökkgrátt) og greiðslugeta tilsvarandi kúnna (ljósgrátt)")
+
+# tilraun til ad plotta svaedin
+ggplot() + geom_bar(data = eig_og_kun.df, aes(si)) # eig_og_kun.df$i %in% urtak$i))
+barplot(svaedi1, names.arg=paste(urtak$i, urtak$j, sep="\n"), xlab="Númer eignar og tilsvarandi kúnna", ylab="Matssvæði", main="Stærð keyptrar eignar (dökkgrátt) og kröfur tilsvarandi kúnna (ljósgrátt)")
+
+
+eig_og_kun.df$sj
+
+fjoldisvaedi <- c()
+for(s1 in eig_og_kun.df$si){
+  for(s2 in eig_og_kun.df$sj)
+  if(grepl(s1, s2)){
+    fjoldisvaedi <- append(fjoldisvaedi,s1)
+  }
+}
 
 
 eig_og_kun.df <- as.data.frame(cbind(eig, kun, gaedi.e, gaedi.k, staerd.e, staerd.k, leiga.e, leiga.k, svaedi.e, svaedi.k))
