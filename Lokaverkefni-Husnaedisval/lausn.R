@@ -60,7 +60,7 @@ ggplot(naemnigr, aes(x = avoxtunarkrafa)) +
   scale_y_continuous(breaks = seq(min(naemnigr$hamarks_leigutekjurMillj), 
                                   max(naemnigr$hamarks_leigutekjurMillj) + 5, 
                                   by = 2.5)) +
-  xlab("Ávöxtunarkrafa (%)") +
+  xlab("Mánaðarleg ávöxtunarkrafa (%)") +
   ylab("Hámarksleigutekjur (Millj. kr.)") +
   ggtitle("Hámarksleigutekjur sem fall af ávöxtunarkröfu") +
   theme(plot.title = element_text(hjust = 0.5))
@@ -70,18 +70,19 @@ ggsave("hamarksleigutekjur.png")
 ggplot(naemnigr, aes(x = fjoldi_eigna)) +
   geom_line(aes(y = avoxtunarkrafa), color="blue") +
   geom_point(aes(y = avoxtunarkrafa), color="red") +
-  scale_y_continuous(labels = scales::percent, 
-                     breaks = seq(min(naemnigr$avoxtunarkrafa), 
+  scale_y_continuous(labels = scales::percent,
+                     breaks = seq(min(naemnigr$avoxtunarkrafa),
                                   max(naemnigr$avoxtunarkrafa), 
                                   by = 0.001)) +
-  scale_y_continuous(breaks = seq(min(naemnigr$fjoldi_eigna), 
+  scale_x_continuous(breaks = seq(min(naemnigr$fjoldi_eigna),
                                   max(naemnigr$fjoldi_eigna) + 5, 
-                                  by = 10)) +
-  xlab("Ávöxtunarkrafa (%)") +
-  ylab("Fjöldi útleigðra eigna") +
-  ggtitle("Hámarksleigutekjur sem fall af ávöxtunarkröfu") +
-  theme(plot.title = element_text(hjust = 0.5)) +
-  opts(panel.grid.major = theme_blank())
+                                  by = 20)) +
+  ylab("Ávöxtunarkrafa (%)") +
+  xlab("Fjöldi útleigðra eigna") +
+  ggtitle("Ávöxtunarkrafa og fjöldi útleigðra eigna") +
+  theme(plot.title = element_text(hjust = 0.5))
+
+ggsave("fjoldi_utleigdra_eigna.png")
 
 length(naemnigr_leigutekjur)
 
