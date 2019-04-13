@@ -1,3 +1,5 @@
+library(ggplot2)
+library(grid)
 # Besta lausn med 6% ROI krofu (0.5% per month)
 # 221, 31499734.5, 6299947000
 
@@ -41,6 +43,46 @@ naemnigr_prosenta <- append(c(0.5, 0.6, 0.69), c(7:16)/10)
 naemnigr_fjoldi_eigna <- c(221, 239, 257, 247, 133, 77, 47, 225, 39, 15, 4, 1, 0)
 naemnigr_leigutekjur <- c(31499734.5, 37799759.4, 43469454.21, 42400121.4, 23328999.2, 13779792, 7693413, 4025249.8, 1865354.4, 787844.2, 810537, 214500, 0)
 naemnigr_fjarfesting <- c(6299947000, 6299959900, 6299920900, 6057160200, 2916124900, 1531088000, 769341300, 365931800, 155446200, 60603400, 57895500, 14300000, 0)
+
+naemnigr <- data.frame(avoxtunarkrafa = naemnigr_prosenta, 
+                       fjoldi_eigna = naemnigr_fjoldi_eigna,
+                       hamarks_leigutekjur = naemnigr_leigutekjur,
+                       fjarfesting = naemnigr_fjarfesting)
+naemnigr$hamarks_leigutekjurMillj = naemnigr$hamarks_leigutekjur/1000000
+naemnigr$avoxtunarkrafa = naemnigr$avoxtunarkrafa/100
+ggplot(naemnigr, aes(x = avoxtunarkrafa)) +
+  geom_line(aes(y = hamarks_leigutekjurMillj), color="blue") +
+  geom_point(aes(y = hamarks_leigutekjurMillj), color="red") +
+  scale_x_continuous(labels = scales::percent, 
+                     breaks = seq(min(naemnigr$avoxtunarkrafa), 
+                                  max(naemnigr$avoxtunarkrafa), 
+                                  by = 0.001)) +
+  scale_y_continuous(breaks = seq(min(naemnigr$hamarks_leigutekjurMillj), 
+                                  max(naemnigr$hamarks_leigutekjurMillj) + 5, 
+                                  by = 2.5)) +
+  xlab("Mánaðarleg ávöxtunarkrafa (%)") +
+  ylab("Hámarksleigutekjur (Millj. kr.)") +
+  ggtitle("Hámarksleigutekjur sem fall af ávöxtunarkröfu") +
+  theme(plot.title = element_text(hjust = 0.5))
+        
+ggsave("hamarksleigutekjur.png")
+
+ggplot(naemnigr, aes(x = fjoldi_eigna)) +
+  geom_line(aes(y = avoxtunarkrafa), color="blue") +
+  geom_point(aes(y = avoxtunarkrafa), color="red") +
+  scale_y_continuous(labels = scales::percent,
+                     breaks = seq(min(naemnigr$avoxtunarkrafa),
+                                  max(naemnigr$avoxtunarkrafa), 
+                                  by = 0.001)) +
+  scale_x_continuous(breaks = seq(min(naemnigr$fjoldi_eigna),
+                                  max(naemnigr$fjoldi_eigna) + 5, 
+                                  by = 20)) +
+  ylab("Ávöxtunarkrafa (%)") +
+  xlab("Fjöldi útleigðra eigna") +
+  ggtitle("Ávöxtunarkrafa og fjöldi útleigðra eigna") +
+  theme(plot.title = element_text(hjust = 0.5))
+
+ggsave("fjoldi_utleigdra_eigna.png")
 
 length(naemnigr_leigutekjur)
 
